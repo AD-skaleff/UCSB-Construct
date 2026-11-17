@@ -1,0 +1,54 @@
+#CATEGORY "10" // Serial
+//   TMC
+   
+// #HINT ""
+// #DEFINE_CONSTANT 
+// #DEFAULT_VOLATILE
+// #DIGITAL_EXPAND 
+// #ANALOG_SERIAL_EXPAND 
+// #OUTPUT_SHIFT 
+#DEFAULT_NONVOLATILE
+#ENABLE_STACK_CHECKING
+#ENABLE_TRACE
+
+
+//IOs
+STRING_INPUT String1$[255],String2$[255];   
+STRING_OUTPUT Serial_Out$;
+ 
+function fMakeString()
+{
+    if (len(String1$) && len(String2$))
+	{
+ 		makestring(Serial_Out$,"%s %s",String1$,String2$);
+	}
+	else if(len(String1$))
+	{
+        makestring(Serial_Out$,"%s",String1$);
+	}
+	else if(len(String2$))
+	{
+        makestring(Serial_Out$,"%s",String2$);
+	}
+
+}
+
+Change String1$
+{
+	fMakeString();
+}
+
+Change String2$
+{
+    fMakeString();
+}
+
+Function Main()
+{
+    WaitForInitializationComplete();
+    // If you are reading any Input or Output variables, uncomment
+    //   the WaitForInitializationComplete statement above and read
+    //   them afterwards.  Input/Output variables will not have
+    //   their correct values set until after the logic processor
+    //   runs and propagates the values to them.
+}

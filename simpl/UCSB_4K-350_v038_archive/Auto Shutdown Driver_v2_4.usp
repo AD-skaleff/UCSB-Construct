@@ -1,0 +1,367 @@
+/*******************************************************************************************
+  SIMPL+ Module Information
+  (Fill in comments below)
+*******************************************************************************************/
+/*
+Programmer: Amplified Design, LLC
+Comments: Adustable Auto off with 10 minute warning
+*/
+
+/*******************************************************************************************
+  Compiler Directives
+  (Uncomment and declare compiler directives as needed)
+*******************************************************************************************/
+
+#CATEGORY "16" // Time/Date
+#DEFAULT_VOLATILE
+#ENABLE_STACK_CHECKING
+#ENABLE_TRACE
+#ENCODING_ASCII
+
+/*
+#HELP_BEGIN
+   (add additional lines of help lines)
+#HELP_END
+*/
+
+/*******************************************************************************************
+  DIGITAL, ANALOG and SERIAL INPUTS and OUTPUTS
+  (Uncomment and declare inputs and outputs as needed)
+*******************************************************************************************/
+
+DIGITAL_INPUT	Enable_Toggle,Enable,Disable,Init,d24hrClock;
+ANALOG_INPUT	Hour, Minute, CountdownTime;
+STRING_INPUT	FileName$[30], FileFolder$[30];
+ANALOG_OUTPUT	Hour_F, Minute_F, Warning_Time;
+STRING_OUTPUT   Warning_Time$;
+
+DIGITAL_OUTPUT	Enable_F;
+
+/*******************************************************************************************
+  Global Variables
+  (Uncomment and declare global variables as needed)
+  Note:  Be sure to initialize all declared STRING variables as needed
+         For example, in Function Main: myString = "";
+*******************************************************************************************/
+
+INTEGER iTod_Trigger, WarningMinute, WarningHour, iEnable;
+INTEGER WritingToDisk;
+STRING  _directory[255];
+
+//for User Settings
+INTEGER	UserEnable;						
+INTEGER	UserHour;						
+INTEGER	UserMinute;		
+INTEGER countdownTimeMinutes;	
+INTEGER	ReadPass;
+		
+
+/*******************************************************************************************
+  Event Handlers
+  (Uncomment and declare additional event handlers as needed)
+*******************************************************************************************/
+Function fSetDirectory()
+{
+	string generateFolder[50];
+
+	if(len(FileName$) && len(FileFolder$))
+	{
+       	makestring(_directory,"\\NVRAM\\%s\\%s",FileFolder$,FileName$);
+	}
+	else if(len(FileName$))
+	{
+		generateFolder = MakeProgramFilename("");
+		makestring  (_directory,"\\NVRAM\\%s\\%s",
+		generateFolder,
+		FileName$
+					);
+	}
+
+}
+
+Function fFormatTime()
+{
+	if(d24HrClock = 0)
+	{
+    	if(Hour > 12)
+		{
+        	makestring(Warning_Time$,"%d:%02d PM",Hour-12,Minute);
+		}
+		else if (Hour = 12)
+		{
+			makestring(Warning_Time$,"%d:%02d PM",Hour,Minute);
+		}
+		else if (Hour < 12 && Hour > 0)
+		{
+			makestring(Warning_Time$,"%d:%02d AM",Hour,Minute);
+		}
+		else
+			makestring(Warning_Time$,"%d:%02d AM",Hour+12,Minute);
+	}
+	else
+		makestring(Warning_Time$,"%d:%02d",Hour,Minute);
+}
+
+Integer_Function InitialUserFile()
+{
+	SIGNED_INTEGER File;
+	STRING Write$[24];
+	INTEGER X;
+	INTEGER Y;
+	INTEGER Z;
+	INTEGER WritePass;
+	STRING	temp$[128];
+
+	WritePass = 0;
+
+	if (startfileoperations() = 0)
+	{
+		File = FileOpenShared(_directory,_O_WRONLY | _O_CREAT | _O_TRUNC | _O_TEXT);
+		if	(File >= 0)										//success
+		{                          
+			X = 1;	//Enable
+			Y = 23;	//initial Hour
+			Z = 0;  //initial minute
+			
+			Makestring(Write$, "%d:%d:%d\n", X,Y,Z);
+			Filewrite(File, Write$, len(Write$));
+
+			Print("FileWrite");
+
+			WritePass = 1;
+		    FileClose(File);
+		}
+		EndFileOperations();
+	}
+	Return(WritePass);
+}
+
+Integer_Function WriteUserFile()
+{
+	SIGNED_INTEGER File;
+	INTEGER WritePass;
+	STRING	Write$[24];
+	STRING	temp$[128];
+
+	if (WritingToDisk = 0 && ReadPass = 1)
+	{
+		WritingToDisk = 1;
+		if (startfileoperations() = 0)
+		{
+			File = FileOpenShared(_directory,_O_WRONLY | _O_TEXT);
+			if (File >= 0)										//open success
+			{
+				Write$ = itoa(iEnable) + ":" + itoa(Hour) + ":" + itoa(Minute) + "\n";
+				Filewrite(File, Write$, len(Write$));
+
+
+				WritePass = 1;
+				FileClose(File);
+			}
+			endfileoperations();
+		}
+		WritingToDisk = 0;
+			Print ("Auto Shutdown File Write: Hour = %d, Minute = %d.\n", Hour,Minute);	
+	}
+	Else	WritePass = 0;
+	
+	Warning_Time = WarningHour*60 + WarningMinute;
+	fFormatTime();
+	Return(WritePass);
+}
+
+INTEGER_Function ReadUserFile()
+{
+	SIGNED_INTEGER File;
+	SIGNED_INTEGER BYTESRead;
+	STRING	Read$[64];
+	STRING	Read$Buff[128];
+	STRING	Temp$[128];
+	INTEGER	X;
+	INTEGER i;
+	INTEGER Marker;
+
+	X = 0;
+	ReadPass = 0;
+
+	if (startfileoperations() = 0)
+	{
+			File = FileOpenShared(_directory,_O_RDONLY | _O_TEXT);
+			if(File >= 0)								//open success
+			{
+				Read$Buff	= "";
+				Read$		= "";
+				While(FileEOF(File) = 0)
+				{
+					BYTESRead = FileRead(File, Read$, 64);
+					Read$Buff = Read$Buff + Read$;
+					if(BYTESRead >= 0)
+					{
+						while(find("\x0D\x0A", Read$Buff) > 0)
+						{
+							X = X + 1;
+
+							// Read the line
+							Temp$	= remove("\x0D\x0A", Read$Buff);
+                                    
+							// Find first comma
+							Marker = find(":", Temp$);
+
+							
+							// Get Enable Value
+							iEnable = atoi(left(Temp$, Marker - 1));
+							Enable_F = iEnable;
+							Temp$ = right(Temp$, Len(Temp$) - Marker);
+
+							// Find second comma
+							Marker = find(":", Temp$);
+
+							UserHour	= atoi(left(Temp$, Marker - 1));
+							Hour_F = UserHour;
+							Temp$ = right(Temp$, Len(Temp$) - Marker);
+
+							// Find CR
+							Marker = find("\x0D\x0A", Temp$);
+
+							// Get the icon index
+							UserMinute	= atoi(left(Temp$, Marker - 1));
+							Minute_F = UserMinute;
+
+						}
+				}
+				Print ("Auto Shutdown File Read: Hour = %d, Minute = %d.\n", UserHour,UserMinute);			//Dbug
+				FileClose(File);
+				ReadPass = 1;
+			}
+		EndFileOperations();
+	}
+	Return(ReadPass);
+}
+}
+
+CHANGE CountdownTime
+{
+ 	countdownTimeMinutes = CountdownTime / 60;
+}
+
+
+Change Minute
+{
+ 	IF ((Minute < countdowntimeminutes) && (Hour > 0))
+	{	
+        WarningMinute = Minute + 60 - countdowntimeminutes;
+		WarningHour = Hour - 1;
+
+	}
+	Else If ((Minute <= countdowntimeminutes) && (Hour = 0))
+	{
+     	WarningMinute = Minute - countdowntimeminutes;
+		WarningHour = 23;
+	}
+	Else
+	{
+        WarningMinute = Minute - countdowntimeminutes;
+		WarningHour = Hour;
+	}
+	WriteUserFile();
+
+}
+
+Change Hour
+{
+ 	If ((Minute < 30) && (Hour > 0))
+	{
+     	WarningHour = Hour - 1;
+	}
+	Else If ((Minute < 30) && (Hour = 0))
+	{
+		WarningHour = 23;
+	}
+	Else
+	{
+        WarningHour = Hour;
+	}
+	WriteUserFile();
+}
+
+Push Enable_Toggle
+{
+	If (iEnable = 0)
+	{
+     	iEnable = 1;
+ 		Enable_F = 1;
+	}
+    Else
+	{
+		iEnable = 0;
+		Enable_F = 0;
+	}
+   	WriteUserFile();
+}
+
+Push Enable
+{
+	iEnable = 1;
+	Enable_F = 1;
+	WriteUserFile();
+}
+
+Push Disable
+{
+    iEnable = 0;
+	Enable_F = 0;
+	WriteUserFile();
+}
+
+Push Init
+{
+	Integer temp;
+     
+	if (ReadUserFile() = 0)						//if read fails, attempt to create
+	{
+		temp = InitialUserFile();
+		if (temp = 0)	GenerateUserError("Could not create Auto Shutdown file.\nPlease check NVRAM is enabled and not full.\n");
+
+		temp = ReadUserFile();
+		if (temp = 0)	GenerateUserError("Could not create Auto Shutdown file.\nPlease check NVRAM is enabled and not full.\n");
+	}
+		
+	WritingToDisk = 0;
+}
+
+Change FileFolder$
+Change FileName$
+Change d24hrclock
+{
+	fSetDirectory();
+}
+	
+
+/*******************************************************************************************
+  Main()
+  Uncomment and place one-time startup code here
+  (This code will get called when the system starts up)
+*******************************************************************************************/
+
+Function Main()
+{
+    
+	waitforinitializationcomplete ();
+
+    iEnable = Enable;
+
+	processlogic();
+
+	
+    // TODO:  Add code here
+    // Initialize declared global and local variables/arrays as needed.
+
+    // WaitForInitializationComplete();
+    // If you are reading any Input or Output variables, uncomment
+    //   the WaitForInitializationComplete statement above and read
+    //   them afterwards.  Input/Output variables will not have
+    //   their correct values set until after the logic processor
+    //   runs and propagates the values to them.
+}
+
+

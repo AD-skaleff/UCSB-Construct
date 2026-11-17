@@ -1,0 +1,22 @@
+{FileMetadata}
+Schema = "1.0.0.0"
+CreatedByAppHost = "2.1701.12.0"
+Created = 2026-11-17 07:30:44.495397-08:00
+LastModifiedByAppHost = "2.1701.12.0"
+Modified = 2026-11-17 07:30:44.495392-08:00
+CreatedByProjectApp = "1.4901.18.0"
+LastModifiedByProjectApp = "1.4901.18.0"
+MinimumProjectApp = ""
+MinimumAppHost = "2.1700.0"
+
+{AssetAttributes}
+
+[Attributes]
+Id = "c71056ca-78e2-40d0-9d51-d1459ce407bb"
+Name = "ad-logo"
+SourceUri = "ad-logo.png"
+AspectRatio = "4.011904761904762"
+AssetSourceType = "File"
+Username = ""
+Password = ""
+

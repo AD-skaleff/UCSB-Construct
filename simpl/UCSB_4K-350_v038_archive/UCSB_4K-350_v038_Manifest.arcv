@@ -1,0 +1,519 @@
+[BEGIN]
+  ObjTp=FSgntr
+  Sgntr=ArchiveManifest
+  RelVrs=4.3200.02
+  IsProgram=1
+  TopLevelProgram=UCSB_4K-350_v038.smw
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=UCSB_4K-350_v038.smw
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=System Initialization Status v003.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=cOS_IO_Config_v0_4_1.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Generic Crosspoint Manager v1_2.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Analog-Serial Decoder_v1_2_1.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=COs_Src_ConfigFile_v0_1.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=COs_Src_Config.clz
+  Scope=1
+  Module=COs_Src_ConfigFile_v0_1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Text Validation Multiple.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=BiampTesiraLib3.clz
+  Scope=1
+  Module=Text Validation Multiple.ush
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Analog-Analog Decoder_v_0.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Analog-Serial_File_v1_9.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Text Validation 255.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Time and Date Basic v1.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=SerialStoreJson_v4_2.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=JsonFile_v4.clz
+  Scope=1
+  Module=SerialStoreJson_v4_2.ush
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Analog-Analog Decoder_v1_2.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Sources Manager v4_0.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Simple Countdown Timer.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=AD Password Interface v1_1.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Edit Item Interface v1_2.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Generic Crosspoint Manager v1_1.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=atoi.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Press & Hold Multiple.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Options Manager v1_0.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=cOS_SourceEnable_v1_0.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Analog-Digital Decoder_v1_0.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Press & Hold.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Generic Switcher Interface v1.7.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=AD Password Device v3_2.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=SerialStoreJson_v5_2.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=JsonFile_v5.clz
+  Scope=1
+  Module=SerialStoreJson_v5_2
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=UCSB_Display_Driver_v0_8.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Display Processor v2.8.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=TCP-IP_Client2_2.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Hitachi CP v1_0.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Hitachi CP+.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=COs_Src_Config.clz
+  Scope=1
+  Module=Hitachi CP+
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Hitachi CP+.usp
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Panasonic PT-D Projector v2_1.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Text Validation Processor v1.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=comspec_v1_1.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Samsung DM Basic v2.5.1.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Samsung DM CheckSum.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Samsung DM CheckSum.usp
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Epson_LP_v001.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Epson PowerLite Pro G5650W Processor v1.2.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Epson PowerLite Pro G5650W Processor v1.2.usp
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Sharp PN-TV v2_5.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=comspec.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=BiampTesiraLib3.clz
+  Scope=1
+  Module=Serial Comspec
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=JsonFile.clz
+  Scope=1
+  Module=Serial Comspec
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Barco CX.clz
+  Scope=1
+  Module=Serial Comspec
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=CiscoRoomDeviceDriver3.4.clz
+  Scope=1
+  Module=Serial Comspec
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=comspec.usp
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=BiampTesiraLib3.clz
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=JsonFile.clz
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Barco CX.clz
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=CiscoRoomDeviceDriver3.4.clz
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=NEC MultiSync v1.3.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=NEC MultiSync v1.3.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=QsysControlV4_2.clz
+  Scope=1
+  Module=NEC MultiSync v1.3
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=NEC MultiSync v1.3.usp
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=QsysControlV4_2.clz
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=LIFO_v1_0.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Generic Switcher Interface v1.6.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Analog-Serial Decoder_v1_2.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Analog-Sort_v1_0.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=DMPS3 Volume Processor.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Edit Item Device v1_2.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Generic Crosspoint Manager v1_0.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=BOM_Analog-Serial_File_v1_5.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Biamp Tesira Command Processor IP v3.2.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Biamp Tesira Comm v3.2.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Biamp Tesira Command Processor IP v3.2 Help.pdf
+  Scope=1
+  Module=Biamp Tesira Comm v3.2.ush
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Dynamic TCP Address Connection Helper.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Biamp Tesira State Control v3.2.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Biamp Tesira State Control v3.2.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Biamp Tesira State Control v3.2 Help.pdf
+  Scope=1
+  Module=Biamp Tesira State Control v3.2.ush
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Biamp Tesira Level Control v3.2.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Biamp Tesira Level Control v3.2.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Biamp Tesira Level Control v3.2 Help.pdf
+  Scope=1
+  Module=Biamp Tesira Level Control v3.2.ush
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Biamp Tesira State Control v3.2 Help.pdf
+  Scope=1
+  Module=Biamp Tesira State Control v3.2.umc
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Biamp Tesira Level Control v3.2 Help.pdf
+  Scope=1
+  Module=Biamp Tesira Level Control v3.2.umc
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Biamp Tesira Preset Control v3.2.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Biamp Tesira Preset Control v3.2.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Biamp Tesira Preset Control v3.2 Help.pdf
+  Scope=1
+  Module=Biamp Tesira Preset Control v3.2.ush
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=FusionRoomCustomPropertyRetriever.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=AdAstra+.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=UCSB_AdAstraSchedulingAwarenessLibrary.clz
+  Scope=1
+  Module=AdAstra+.ush
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Serial Text Combine_v1_1.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Aver-Camera_v3.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Serial-Mark-NO_AUTO.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=UDP_IP_Socket_Dynamic_Address_v2.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Smart Toggle v1.0.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Auto_Shutdown_(Enterprise)_v2_3.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Auto Shutdown Driver_v2_4.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Simple Countdown Timer_v1_1.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=UCSB_560P.sgd_
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=UCSB_760_v2_5.sgd_
+  Scope=1
+[END]

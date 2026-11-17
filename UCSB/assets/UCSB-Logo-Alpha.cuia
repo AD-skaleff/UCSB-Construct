@@ -1,0 +1,22 @@
+{FileMetadata}
+Schema = "1.0.0.0"
+CreatedByAppHost = "2.1701.12.0"
+Created = 2026-11-12 17:09:40.310941-08:00
+LastModifiedByAppHost = "2.1701.12.0"
+Modified = 2026-11-12 17:09:40.310936-08:00
+CreatedByProjectApp = "1.4901.18.0"
+LastModifiedByProjectApp = "1.4901.18.0"
+MinimumProjectApp = ""
+MinimumAppHost = "2.1700.0"
+
+{AssetAttributes}
+
+[Attributes]
+Id = "bc9fc597-c10c-4229-91a2-c15a87ba9dfc"
+Name = "UCSB-Logo-Alpha"
+SourceUri = "UCSB-Logo-Alpha.png"
+AspectRatio = "5.354838709677419"
+AssetSourceType = "File"
+Username = ""
+Password = ""
+

@@ -1,0 +1,113 @@
+{FileMetadata}
+Schema = "1.0.0.0"
+CreatedByAppHost = "2.1701.12.0"
+Created = 2026-11-12 18:16:13.333763-08:00
+LastModifiedByAppHost = "2.1701.12.0"
+Modified = 2026-11-12 18:16:13.333758-08:00
+CreatedByProjectApp = "1.4901.18.0"
+LastModifiedByProjectApp = "1.4901.18.0"
+MinimumProjectApp = "1.2600.1"
+MinimumAppHost = "2.1700.0"
+
+{Html}
+<div categoryname="Widget Components" ccid_ComponentType="Widget Canvas" id="iq0vzb4xj8" devicesVisited="[&quot;TSW-1080&quot;]" defaultWidth="1280px" defaultHeight="60px" class="widget-container"><ch5-datetime timeoffsethours="0" tagName="ch5-datetime" horizontalalignment="right" displaytype="date" display24hourformat="false" displayampm="true" displaytwodigitshour="false" displayseconds="false" stylefordate="MMMM d, yyyy" id="ia4wswkaml" componentName="Date Time_1" ccid_ActiveFont="'CrestronSansProSemibold'" ccid_linkSendReceive="True" ccid_ComponentType="Date Time" devicesVisited="[&quot;TSW-1080&quot;]" ccid_themeCSSSet="true" oldID="i0j8"></ch5-datetime><ch5-datetime timeoffsethours="0" tagName="ch5-datetime" horizontalalignment="center" displaytype="time" display24hourformat="false" displayampm="true" displaytwodigitshour="false" displayseconds="false" stylefordate="MM-dd-yyyy" id="i0j8" componentName="Date Time" ccid_ActiveFont="'CrestronSansProSemibold'" ccid_linkSendReceive="True" ccid_ComponentType="Date Time" devicesVisited="[&quot;TSW-1080&quot;]" ccid_themeCSSSet="true">
+              </ch5-datetime><ch5-text clearLabel="false" labelmodeadvncomponent="simple" horizontalalignment="left" verticalalignment="middle" multilinesupport="false" truncatetext="false" id="i1xi" componentName="Formatted-Text" ccid_ActiveFont="'CrestronSansProSemibold'" ccid_Label="Room Name" labelinnerhtml="Room Name" ccid_linkSendReceive="True" ccid_ComponentType="Formatted-Text" devicesVisited="[&quot;TSW-1080&quot;]" ccid_themeCSSSet="true" pd-receivestatelabel="1">
+              </ch5-text></div>
+
+{Css}
+@media (max-width: 99999px){#iq0vzb4xj8{width:1280px;height:60px;left:0;top:0;position:absolute;background-color:#edeff2;}#i1xi{display:block;left:10px;top:2px;position:absolute;z-index:1;width:442px;height:55px;--ch5-text--width:442px;--ch5-text--height:55px;--ch5-text--font-size:30px;Label_font-size:30px;custom-normal-font-size:30px;}#i1xi .ch5-text :not(i):not(svg){font-family:'CrestronSansProSemibold';}#i1xi .ch5-text{min-height:10;min-width:10;padding:0px;}#i0j8{display:block;left:540px;top:12px;position:absolute;z-index:2;width:200px;height:35px;--ch5-datetime--font-size:30px;Label_font-size:30px;custom-normal-font-size:30px;}#i0j8 :not(i):not(svg){font-family:'CrestronSansProSemibold';}#ia4wswkaml{display:block;left:963px;top:2px;position:absolute;z-index:3;width:306px;height:55px;--ch5-datetime--font-size:28px;Label_font-size:28px;custom-normal-font-size:28px;--ch5-datetime--width:306px;--ch5-datetime--height:55px;}#ia4wswkaml :not(i):not(svg){font-family:'CrestronSansProSemibold';}#itye{background-color:#ffffff;}.widget-container{z-index:0;}}@media (orientation: landscape) and (max-width: 1281px) and (max-height: 801px), (orientation: landscape) and (max-width: 1279px){#iq0vzb4xj8{width:1280px;height:60px;left:0;top:0;position:absolute;}#i1xi{display:block;left:10px;top:2px;position:absolute;width:442px;height:55px;--ch5-text--width:442px;--ch5-text--height:55px;Label_font-size:30px;--ch5-text--font-size:30px;}#i0j8{display:block;left:540px;top:12px;position:absolute;width:200px;height:35px;Label_font-size:30px;--ch5-datetime--font-size:30px;}#ia4wswkaml{left:963px;top:2px;position:absolute;width:306px;--ch5-datetime--width:306px;Label_font-size:28px;--ch5-datetime--font-size:28px;}}
+
+{PageAttributes}
+
+[Attributes]
+Name = "sysHeader"
+PageMode = "absolute"
+Id = "ad7ad0ce-620b-4242-9572-53d7ff0c6a26"
+DisplayBackgroundColor = "True"
+BackgroundColor = "#edeff2"
+
+[[Elements]]
+Type = "widgetContainer"
+Classes = ["widget-container"]
+
+[[Elements.Components]]
+Type = "Ch5 Date Time"
+Editable = true
+
+[Elements.Components.Attributes]
+timeoffsethours = "0"
+tagName = "ch5-datetime"
+horizontalalignment = "right"
+displaytype = "date"
+display24hourformat = "false"
+displayampm = "true"
+displaytwodigitshour = "false"
+displayseconds = "false"
+stylefordate = "MMMM d, yyyy"
+id = "ia4wswkaml"
+componentName = "Date Time_1"
+ccid_ActiveFont = "'CrestronSansProSemibold'"
+ccid_linkSendReceive = "True"
+ccid_ComponentType = "Date Time"
+devicesVisited = "[\"TSW-1080\"]"
+ccid_themeCSSSet = "true"
+oldID = "i0j8"
+[[Elements.Components]]
+Type = "Ch5 Date Time"
+Editable = true
+
+[[Elements.Components.Components]]
+Type = "textnode"
+Content = "\n              "
+
+[Elements.Components.Attributes]
+timeoffsethours = "0"
+tagName = "ch5-datetime"
+horizontalalignment = "center"
+displaytype = "time"
+display24hourformat = "false"
+displayampm = "true"
+displaytwodigitshour = "false"
+displayseconds = "false"
+stylefordate = "MM-dd-yyyy"
+id = "i0j8"
+componentName = "Date Time"
+ccid_ActiveFont = "'CrestronSansProSemibold'"
+ccid_linkSendReceive = "True"
+ccid_ComponentType = "Date Time"
+devicesVisited = "[\"TSW-1080\"]"
+ccid_themeCSSSet = "true"
+[[Elements.Components]]
+Type = "Ch5 Text"
+Editable = true
+
+[[Elements.Components.Components]]
+Type = "textnode"
+Content = "\n              "
+
+[Elements.Components.Attributes]
+clearLabel = "false"
+labelmodeadvncomponent = "simple"
+horizontalalignment = "left"
+verticalalignment = "middle"
+multilinesupport = "false"
+truncatetext = "false"
+id = "i1xi"
+componentName = "Formatted-Text"
+ccid_ActiveFont = "'CrestronSansProSemibold'"
+ccid_Label = "Room Name"
+labelinnerhtml = "Room Name"
+ccid_linkSendReceive = "True"
+ccid_ComponentType = "Formatted-Text"
+devicesVisited = "[\"TSW-1080\"]"
+ccid_themeCSSSet = "true"
+pd-receivestatelabel = "1"
+
+[Elements.Attributes]
+categoryname = "Widget Components"
+ccid_ComponentType = "Widget Canvas"
+id = "iq0vzb4xj8"
+devicesVisited = "[\"TSW-1080\"]"
+defaultWidth = "1280px"
+defaultHeight = "60px"
+

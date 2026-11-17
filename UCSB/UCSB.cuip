@@ -1,0 +1,35 @@
+{FileMetadata}
+Schema = "1.0.0.0"
+CreatedByAppHost = "2.1701.12.0"
+Created = 2026-10-05 11:40:52.304892-07:00
+LastModifiedByAppHost = "2.1701.12.0"
+Modified = 2026-11-17 07:33:17.194609-08:00
+CreatedByProjectApp = "1.4901.18.0"
+LastModifiedByProjectApp = "1.4901.18.0"
+MinimumProjectApp = "1.2600.1"
+MinimumAppHost = "2.1700.0"
+
+{DeviceResolutionSource}
+[]
+
+{ProjectAttributes}
+
+[Attributes]
+Name = "UCSB"
+ThemeId = "light-theme.css"
+ProjectThemeIds = "light-theme.css"
+ThemePageColor = "#ffffff"
+IncludeUnusedAsset = "False"
+OverrideThemeColor = "False"
+SdkId = "CH5:2.19.1"
+ComponentKey = "UiEditor"
+Id = "518d7b4b-7fc6-4286-bfe3-1545380aff7f"
+RuntimeThemeJoin = "0"
+RuntimeLanguageJoin = "0"
+DefaultComponentMode = "custom"
+DefaultFontFamily = "CrestronSansPro"
+DeviceResolutionIds = "D-L-TSW1080-1280-800,D-L-TSW1070-1280-0800"
+ipId = "03"
+ProjectSchemaVersion = "13"
+ContractIsStale = "false"
+

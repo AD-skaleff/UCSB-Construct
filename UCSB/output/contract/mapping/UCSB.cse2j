@@ -1,0 +1,1498 @@
+{
+  "name": "UCSB",
+  "timestamp": "2026-11-17T15:34:20.96987+00:00",
+  "version": "1.0.0.0",
+  "schema_version": 1,
+  "extra_value": "",
+  "signals": {
+    "states": {
+      "boolean": {
+        "3": {
+          "1": "pageLogo.sysFooter.listDock.Items[0].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "2": "pageLogo.sysFooter.listDock.Items[1].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "3": "pageLogo.sysFooter.listDock.Items[2].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "4": "pageLogo.sysFooter.listDock.Items[3].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "5": "pageLogo.sysFooter.listDock.Items[4].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "6": "pageLogo.sysFooter.listDock.Items[5].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "7": "pageLogo.sysFooter.listDock.Items[6].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "8": "pageLogo.sysFooter.listDock.List_Item1_Visible",
+          "9": "pageLogo.sysFooter.listDock.List_Item2_Visible",
+          "10": "pageLogo.sysFooter.listDock.List_Item3_Visible",
+          "11": "pageLogo.sysFooter.listDock.List_Item4_Visible",
+          "12": "pageLogo.sysFooter.listDock.List_Item5_Visible",
+          "13": "pageLogo.sysFooter.listDock.List_Item6_Visible",
+          "14": "pageLogo.sysFooter.listDock.List_Item7_Visible",
+          "15": "pageLogo.sysFooter.listDock.List_Item1_Enable",
+          "16": "pageLogo.sysFooter.listDock.List_Item2_Enable",
+          "17": "pageLogo.sysFooter.listDock.List_Item3_Enable",
+          "18": "pageLogo.sysFooter.listDock.List_Item4_Enable",
+          "19": "pageLogo.sysFooter.listDock.List_Item5_Enable",
+          "20": "pageLogo.sysFooter.listDock.List_Item6_Enable",
+          "21": "pageLogo.sysFooter.listDock.List_Item7_Enable",
+          "23": "pageLogo.sysFooter.listDock.Items[0].listItemActCONTRACT.listItemBtn.Selected",
+          "24": "pageLogo.sysFooter.listDock.Items[1].listItemActCONTRACT.listItemBtn.Selected",
+          "25": "pageLogo.sysFooter.listDock.Items[2].listItemActCONTRACT.listItemBtn.Selected",
+          "26": "pageLogo.sysFooter.listDock.Items[3].listItemActCONTRACT.listItemBtn.Selected",
+          "27": "pageLogo.sysFooter.listDock.Items[4].listItemActCONTRACT.listItemBtn.Selected",
+          "28": "pageLogo.sysFooter.listDock.Items[5].listItemActCONTRACT.listItemBtn.Selected",
+          "29": "pageLogo.sysFooter.listDock.Items[6].listItemActCONTRACT.listItemBtn.Selected"
+        },
+        "6": {
+          "1": "zzTemplatePage.sysFooter.listDock.Items[0].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "2": "zzTemplatePage.sysFooter.listDock.Items[1].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "3": "zzTemplatePage.sysFooter.listDock.Items[2].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "4": "zzTemplatePage.sysFooter.listDock.Items[3].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "5": "zzTemplatePage.sysFooter.listDock.Items[4].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "6": "zzTemplatePage.sysFooter.listDock.Items[5].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "7": "zzTemplatePage.sysFooter.listDock.Items[6].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "8": "zzTemplatePage.sysFooter.listDock.List_Item1_Visible",
+          "9": "zzTemplatePage.sysFooter.listDock.List_Item2_Visible",
+          "10": "zzTemplatePage.sysFooter.listDock.List_Item3_Visible",
+          "11": "zzTemplatePage.sysFooter.listDock.List_Item4_Visible",
+          "12": "zzTemplatePage.sysFooter.listDock.List_Item5_Visible",
+          "13": "zzTemplatePage.sysFooter.listDock.List_Item6_Visible",
+          "14": "zzTemplatePage.sysFooter.listDock.List_Item7_Visible",
+          "15": "zzTemplatePage.sysFooter.listDock.List_Item1_Enable",
+          "16": "zzTemplatePage.sysFooter.listDock.List_Item2_Enable",
+          "17": "zzTemplatePage.sysFooter.listDock.List_Item3_Enable",
+          "18": "zzTemplatePage.sysFooter.listDock.List_Item4_Enable",
+          "19": "zzTemplatePage.sysFooter.listDock.List_Item5_Enable",
+          "20": "zzTemplatePage.sysFooter.listDock.List_Item6_Enable",
+          "21": "zzTemplatePage.sysFooter.listDock.List_Item7_Enable",
+          "23": "zzTemplatePage.sysFooter.listDock.Items[0].listItemActCONTRACT.listItemBtn.Selected",
+          "24": "zzTemplatePage.sysFooter.listDock.Items[1].listItemActCONTRACT.listItemBtn.Selected",
+          "25": "zzTemplatePage.sysFooter.listDock.Items[2].listItemActCONTRACT.listItemBtn.Selected",
+          "26": "zzTemplatePage.sysFooter.listDock.Items[3].listItemActCONTRACT.listItemBtn.Selected",
+          "27": "zzTemplatePage.sysFooter.listDock.Items[4].listItemActCONTRACT.listItemBtn.Selected",
+          "28": "zzTemplatePage.sysFooter.listDock.Items[5].listItemActCONTRACT.listItemBtn.Selected",
+          "29": "zzTemplatePage.sysFooter.listDock.Items[6].listItemActCONTRACT.listItemBtn.Selected"
+        },
+        "9": {
+          "1": "pagePresent.sysFooter.listDock.Items[0].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "2": "pagePresent.sysFooter.listDock.Items[1].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "3": "pagePresent.sysFooter.listDock.Items[2].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "4": "pagePresent.sysFooter.listDock.Items[3].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "5": "pagePresent.sysFooter.listDock.Items[4].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "6": "pagePresent.sysFooter.listDock.Items[5].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "7": "pagePresent.sysFooter.listDock.Items[6].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "8": "pagePresent.sysFooter.listDock.List_Item1_Visible",
+          "9": "pagePresent.sysFooter.listDock.List_Item2_Visible",
+          "10": "pagePresent.sysFooter.listDock.List_Item3_Visible",
+          "11": "pagePresent.sysFooter.listDock.List_Item4_Visible",
+          "12": "pagePresent.sysFooter.listDock.List_Item5_Visible",
+          "13": "pagePresent.sysFooter.listDock.List_Item6_Visible",
+          "14": "pagePresent.sysFooter.listDock.List_Item7_Visible",
+          "15": "pagePresent.sysFooter.listDock.List_Item1_Enable",
+          "16": "pagePresent.sysFooter.listDock.List_Item2_Enable",
+          "17": "pagePresent.sysFooter.listDock.List_Item3_Enable",
+          "18": "pagePresent.sysFooter.listDock.List_Item4_Enable",
+          "19": "pagePresent.sysFooter.listDock.List_Item5_Enable",
+          "20": "pagePresent.sysFooter.listDock.List_Item6_Enable",
+          "21": "pagePresent.sysFooter.listDock.List_Item7_Enable",
+          "23": "pagePresent.sysFooter.listDock.Items[0].listItemActCONTRACT.listItemBtn.Selected",
+          "24": "pagePresent.sysFooter.listDock.Items[1].listItemActCONTRACT.listItemBtn.Selected",
+          "25": "pagePresent.sysFooter.listDock.Items[2].listItemActCONTRACT.listItemBtn.Selected",
+          "26": "pagePresent.sysFooter.listDock.Items[3].listItemActCONTRACT.listItemBtn.Selected",
+          "27": "pagePresent.sysFooter.listDock.Items[4].listItemActCONTRACT.listItemBtn.Selected",
+          "28": "pagePresent.sysFooter.listDock.Items[5].listItemActCONTRACT.listItemBtn.Selected",
+          "29": "pagePresent.sysFooter.listDock.Items[6].listItemActCONTRACT.listItemBtn.Selected"
+        },
+        "10": {
+          "1": "pagePresent.srcsel.Items[0].listItemSourceCONTRACT.sourceStopBtn.Visibility_fb",
+          "2": "pagePresent.srcsel.Items[1].listItemSourceCONTRACT.sourceStopBtn.Visibility_fb",
+          "3": "pagePresent.srcsel.Items[2].listItemSourceCONTRACT.sourceStopBtn.Visibility_fb",
+          "4": "pagePresent.srcsel.Items[3].listItemSourceCONTRACT.sourceStopBtn.Visibility_fb",
+          "5": "pagePresent.srcsel.Items[4].listItemSourceCONTRACT.sourceStopBtn.Visibility_fb",
+          "6": "pagePresent.srcsel.Items[5].listItemSourceCONTRACT.sourceStopBtn.Visibility_fb",
+          "7": "pagePresent.srcsel.Items[6].listItemSourceCONTRACT.sourceStopBtn.Visibility_fb",
+          "8": "pagePresent.srcsel.Items[7].listItemSourceCONTRACT.sourceStopBtn.Visibility_fb",
+          "9": "pagePresent.srcsel.Items[8].listItemSourceCONTRACT.sourceStopBtn.Visibility_fb",
+          "10": "pagePresent.srcsel.Items[9].listItemSourceCONTRACT.sourceStopBtn.Visibility_fb",
+          "11": "pagePresent.srcsel.Items[10].listItemSourceCONTRACT.sourceStopBtn.Visibility_fb",
+          "12": "pagePresent.srcsel.Items[11].listItemSourceCONTRACT.sourceStopBtn.Visibility_fb",
+          "13": "pagePresent.srcsel.List_Item1_Visible",
+          "14": "pagePresent.srcsel.List_Item2_Visible",
+          "15": "pagePresent.srcsel.List_Item3_Visible",
+          "16": "pagePresent.srcsel.List_Item4_Visible",
+          "17": "pagePresent.srcsel.List_Item5_Visible",
+          "18": "pagePresent.srcsel.List_Item6_Visible",
+          "19": "pagePresent.srcsel.List_Item7_Visible",
+          "20": "pagePresent.srcsel.List_Item8_Visible",
+          "21": "pagePresent.srcsel.List_Item9_Visible",
+          "22": "pagePresent.srcsel.List_Item10_Visible",
+          "23": "pagePresent.srcsel.List_Item11_Visible",
+          "24": "pagePresent.srcsel.List_Item12_Visible",
+          "625": "pagePresent.srcsel.Items[0].listItemSourceCONTRACT.sourceSelBtn.Selected",
+          "626": "pagePresent.srcsel.Items[0].listItemSourceCONTRACT.sourceStopBtn.Selected",
+          "627": "pagePresent.srcsel.Items[1].listItemSourceCONTRACT.sourceSelBtn.Selected",
+          "628": "pagePresent.srcsel.Items[1].listItemSourceCONTRACT.sourceStopBtn.Selected",
+          "629": "pagePresent.srcsel.Items[2].listItemSourceCONTRACT.sourceSelBtn.Selected",
+          "630": "pagePresent.srcsel.Items[2].listItemSourceCONTRACT.sourceStopBtn.Selected",
+          "631": "pagePresent.srcsel.Items[3].listItemSourceCONTRACT.sourceSelBtn.Selected",
+          "632": "pagePresent.srcsel.Items[3].listItemSourceCONTRACT.sourceStopBtn.Selected",
+          "633": "pagePresent.srcsel.Items[4].listItemSourceCONTRACT.sourceSelBtn.Selected",
+          "634": "pagePresent.srcsel.Items[4].listItemSourceCONTRACT.sourceStopBtn.Selected",
+          "635": "pagePresent.srcsel.Items[5].listItemSourceCONTRACT.sourceSelBtn.Selected",
+          "636": "pagePresent.srcsel.Items[5].listItemSourceCONTRACT.sourceStopBtn.Selected",
+          "637": "pagePresent.srcsel.Items[6].listItemSourceCONTRACT.sourceSelBtn.Selected",
+          "638": "pagePresent.srcsel.Items[6].listItemSourceCONTRACT.sourceStopBtn.Selected",
+          "639": "pagePresent.srcsel.Items[7].listItemSourceCONTRACT.sourceSelBtn.Selected",
+          "640": "pagePresent.srcsel.Items[7].listItemSourceCONTRACT.sourceStopBtn.Selected",
+          "641": "pagePresent.srcsel.Items[8].listItemSourceCONTRACT.sourceSelBtn.Selected",
+          "642": "pagePresent.srcsel.Items[8].listItemSourceCONTRACT.sourceStopBtn.Selected",
+          "643": "pagePresent.srcsel.Items[9].listItemSourceCONTRACT.sourceSelBtn.Selected",
+          "644": "pagePresent.srcsel.Items[9].listItemSourceCONTRACT.sourceStopBtn.Selected",
+          "645": "pagePresent.srcsel.Items[10].listItemSourceCONTRACT.sourceSelBtn.Selected",
+          "646": "pagePresent.srcsel.Items[10].listItemSourceCONTRACT.sourceStopBtn.Selected",
+          "647": "pagePresent.srcsel.Items[11].listItemSourceCONTRACT.sourceSelBtn.Selected",
+          "648": "pagePresent.srcsel.Items[11].listItemSourceCONTRACT.sourceStopBtn.Selected"
+        },
+        "13": {
+          "1": "zzTemplateSource.sysFooter.listDock.Items[0].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "2": "zzTemplateSource.sysFooter.listDock.Items[1].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "3": "zzTemplateSource.sysFooter.listDock.Items[2].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "4": "zzTemplateSource.sysFooter.listDock.Items[3].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "5": "zzTemplateSource.sysFooter.listDock.Items[4].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "6": "zzTemplateSource.sysFooter.listDock.Items[5].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "7": "zzTemplateSource.sysFooter.listDock.Items[6].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "8": "zzTemplateSource.sysFooter.listDock.List_Item1_Visible",
+          "9": "zzTemplateSource.sysFooter.listDock.List_Item2_Visible",
+          "10": "zzTemplateSource.sysFooter.listDock.List_Item3_Visible",
+          "11": "zzTemplateSource.sysFooter.listDock.List_Item4_Visible",
+          "12": "zzTemplateSource.sysFooter.listDock.List_Item5_Visible",
+          "13": "zzTemplateSource.sysFooter.listDock.List_Item6_Visible",
+          "14": "zzTemplateSource.sysFooter.listDock.List_Item7_Visible",
+          "15": "zzTemplateSource.sysFooter.listDock.List_Item1_Enable",
+          "16": "zzTemplateSource.sysFooter.listDock.List_Item2_Enable",
+          "17": "zzTemplateSource.sysFooter.listDock.List_Item3_Enable",
+          "18": "zzTemplateSource.sysFooter.listDock.List_Item4_Enable",
+          "19": "zzTemplateSource.sysFooter.listDock.List_Item5_Enable",
+          "20": "zzTemplateSource.sysFooter.listDock.List_Item6_Enable",
+          "21": "zzTemplateSource.sysFooter.listDock.List_Item7_Enable",
+          "23": "zzTemplateSource.sysFooter.listDock.Items[0].listItemActCONTRACT.listItemBtn.Selected",
+          "24": "zzTemplateSource.sysFooter.listDock.Items[1].listItemActCONTRACT.listItemBtn.Selected",
+          "25": "zzTemplateSource.sysFooter.listDock.Items[2].listItemActCONTRACT.listItemBtn.Selected",
+          "26": "zzTemplateSource.sysFooter.listDock.Items[3].listItemActCONTRACT.listItemBtn.Selected",
+          "27": "zzTemplateSource.sysFooter.listDock.Items[4].listItemActCONTRACT.listItemBtn.Selected",
+          "28": "zzTemplateSource.sysFooter.listDock.Items[5].listItemActCONTRACT.listItemBtn.Selected",
+          "29": "zzTemplateSource.sysFooter.listDock.Items[6].listItemActCONTRACT.listItemBtn.Selected"
+        },
+        "16": {
+          "1": "pageAdvRoute.sysFooter.listDock.Items[0].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "2": "pageAdvRoute.sysFooter.listDock.Items[1].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "3": "pageAdvRoute.sysFooter.listDock.Items[2].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "4": "pageAdvRoute.sysFooter.listDock.Items[3].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "5": "pageAdvRoute.sysFooter.listDock.Items[4].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "6": "pageAdvRoute.sysFooter.listDock.Items[5].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "7": "pageAdvRoute.sysFooter.listDock.Items[6].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "8": "pageAdvRoute.sysFooter.listDock.List_Item1_Visible",
+          "9": "pageAdvRoute.sysFooter.listDock.List_Item2_Visible",
+          "10": "pageAdvRoute.sysFooter.listDock.List_Item3_Visible",
+          "11": "pageAdvRoute.sysFooter.listDock.List_Item4_Visible",
+          "12": "pageAdvRoute.sysFooter.listDock.List_Item5_Visible",
+          "13": "pageAdvRoute.sysFooter.listDock.List_Item6_Visible",
+          "14": "pageAdvRoute.sysFooter.listDock.List_Item7_Visible",
+          "15": "pageAdvRoute.sysFooter.listDock.List_Item1_Enable",
+          "16": "pageAdvRoute.sysFooter.listDock.List_Item2_Enable",
+          "17": "pageAdvRoute.sysFooter.listDock.List_Item3_Enable",
+          "18": "pageAdvRoute.sysFooter.listDock.List_Item4_Enable",
+          "19": "pageAdvRoute.sysFooter.listDock.List_Item5_Enable",
+          "20": "pageAdvRoute.sysFooter.listDock.List_Item6_Enable",
+          "21": "pageAdvRoute.sysFooter.listDock.List_Item7_Enable",
+          "23": "pageAdvRoute.sysFooter.listDock.Items[0].listItemActCONTRACT.listItemBtn.Selected",
+          "24": "pageAdvRoute.sysFooter.listDock.Items[1].listItemActCONTRACT.listItemBtn.Selected",
+          "25": "pageAdvRoute.sysFooter.listDock.Items[2].listItemActCONTRACT.listItemBtn.Selected",
+          "26": "pageAdvRoute.sysFooter.listDock.Items[3].listItemActCONTRACT.listItemBtn.Selected",
+          "27": "pageAdvRoute.sysFooter.listDock.Items[4].listItemActCONTRACT.listItemBtn.Selected",
+          "28": "pageAdvRoute.sysFooter.listDock.Items[5].listItemActCONTRACT.listItemBtn.Selected",
+          "29": "pageAdvRoute.sysFooter.listDock.Items[6].listItemActCONTRACT.listItemBtn.Selected"
+        },
+        "44": {
+          "1001": "pageAdvRoute.advSrcBtnList.Button1ItemSelected",
+          "1002": "pageAdvRoute.advSrcBtnList.Button2ItemSelected",
+          "1003": "pageAdvRoute.advSrcBtnList.Button3ItemSelected",
+          "1004": "pageAdvRoute.advSrcBtnList.Button4ItemSelected",
+          "1005": "pageAdvRoute.advSrcBtnList.Button5ItemSelected",
+          "1006": "pageAdvRoute.advSrcBtnList.Button6ItemSelected",
+          "1007": "pageAdvRoute.advSrcBtnList.Button7ItemSelected",
+          "1008": "pageAdvRoute.advSrcBtnList.Button8ItemSelected",
+          "1009": "pageAdvRoute.advSrcBtnList.Button9ItemSelected",
+          "1010": "pageAdvRoute.advSrcBtnList.Button10ItemSelected",
+          "1011": "pageAdvRoute.advSrcBtnList.Button11ItemSelected",
+          "1012": "pageAdvRoute.advSrcBtnList.Button12ItemSelected",
+          "1013": "pageAdvRoute.advSrcBtnList.Button13ItemSelected",
+          "1014": "pageAdvRoute.advSrcBtnList.Button14ItemSelected",
+          "1015": "pageAdvRoute.advSrcBtnList.Button15ItemSelected",
+          "1016": "pageAdvRoute.advSrcBtnList.Button16ItemSelected",
+          "1501": "pageAdvRoute.advSrcBtnList.Button1Visible",
+          "1502": "pageAdvRoute.advSrcBtnList.Button2Visible",
+          "1503": "pageAdvRoute.advSrcBtnList.Button3Visible",
+          "1504": "pageAdvRoute.advSrcBtnList.Button4Visible",
+          "1505": "pageAdvRoute.advSrcBtnList.Button5Visible",
+          "1506": "pageAdvRoute.advSrcBtnList.Button6Visible",
+          "1507": "pageAdvRoute.advSrcBtnList.Button7Visible",
+          "1508": "pageAdvRoute.advSrcBtnList.Button8Visible",
+          "1509": "pageAdvRoute.advSrcBtnList.Button9Visible",
+          "1510": "pageAdvRoute.advSrcBtnList.Button10Visible",
+          "1511": "pageAdvRoute.advSrcBtnList.Button11Visible",
+          "1512": "pageAdvRoute.advSrcBtnList.Button12Visible",
+          "1513": "pageAdvRoute.advSrcBtnList.Button13Visible",
+          "1514": "pageAdvRoute.advSrcBtnList.Button14Visible",
+          "1515": "pageAdvRoute.advSrcBtnList.Button15Visible",
+          "1516": "pageAdvRoute.advSrcBtnList.Button16Visible",
+          "2001": "pageAdvRoute.advSrcBtnList.Button1Enabled",
+          "2002": "pageAdvRoute.advSrcBtnList.Button2Enabled",
+          "2003": "pageAdvRoute.advSrcBtnList.Button3Enabled",
+          "2004": "pageAdvRoute.advSrcBtnList.Button4Enabled",
+          "2005": "pageAdvRoute.advSrcBtnList.Button5Enabled",
+          "2006": "pageAdvRoute.advSrcBtnList.Button6Enabled",
+          "2007": "pageAdvRoute.advSrcBtnList.Button7Enabled",
+          "2008": "pageAdvRoute.advSrcBtnList.Button8Enabled",
+          "2009": "pageAdvRoute.advSrcBtnList.Button9Enabled",
+          "2010": "pageAdvRoute.advSrcBtnList.Button10Enabled",
+          "2011": "pageAdvRoute.advSrcBtnList.Button11Enabled",
+          "2012": "pageAdvRoute.advSrcBtnList.Button12Enabled",
+          "2013": "pageAdvRoute.advSrcBtnList.Button13Enabled",
+          "2014": "pageAdvRoute.advSrcBtnList.Button14Enabled",
+          "2015": "pageAdvRoute.advSrcBtnList.Button15Enabled",
+          "2016": "pageAdvRoute.advSrcBtnList.Button16Enabled"
+        },
+        "45": {
+          "1501": "pageAdvRoute.advDestBtnList.Button1Visible",
+          "1502": "pageAdvRoute.advDestBtnList.Button2Visible",
+          "1503": "pageAdvRoute.advDestBtnList.Button3Visible",
+          "1504": "pageAdvRoute.advDestBtnList.Button4Visible",
+          "1505": "pageAdvRoute.advDestBtnList.Button5Visible",
+          "1506": "pageAdvRoute.advDestBtnList.Button6Visible",
+          "1507": "pageAdvRoute.advDestBtnList.Button7Visible",
+          "1508": "pageAdvRoute.advDestBtnList.Button8Visible",
+          "1509": "pageAdvRoute.advDestBtnList.Button9Visible",
+          "1510": "pageAdvRoute.advDestBtnList.Button10Visible",
+          "1511": "pageAdvRoute.advDestBtnList.Button11Visible",
+          "1512": "pageAdvRoute.advDestBtnList.Button12Visible",
+          "1513": "pageAdvRoute.advDestBtnList.Button13Visible",
+          "1514": "pageAdvRoute.advDestBtnList.Button14Visible",
+          "1515": "pageAdvRoute.advDestBtnList.Button15Visible",
+          "1516": "pageAdvRoute.advDestBtnList.Button16Visible",
+          "2001": "pageAdvRoute.advDestBtnList.Button1Enabled",
+          "2002": "pageAdvRoute.advDestBtnList.Button2Enabled",
+          "2003": "pageAdvRoute.advDestBtnList.Button3Enabled",
+          "2004": "pageAdvRoute.advDestBtnList.Button4Enabled",
+          "2005": "pageAdvRoute.advDestBtnList.Button5Enabled",
+          "2006": "pageAdvRoute.advDestBtnList.Button6Enabled",
+          "2007": "pageAdvRoute.advDestBtnList.Button7Enabled",
+          "2008": "pageAdvRoute.advDestBtnList.Button8Enabled",
+          "2009": "pageAdvRoute.advDestBtnList.Button9Enabled",
+          "2010": "pageAdvRoute.advDestBtnList.Button10Enabled",
+          "2011": "pageAdvRoute.advDestBtnList.Button11Enabled",
+          "2012": "pageAdvRoute.advDestBtnList.Button12Enabled",
+          "2013": "pageAdvRoute.advDestBtnList.Button13Enabled",
+          "2014": "pageAdvRoute.advDestBtnList.Button14Enabled",
+          "2015": "pageAdvRoute.advDestBtnList.Button15Enabled",
+          "2016": "pageAdvRoute.advDestBtnList.Button16Enabled"
+        },
+        "19": {
+          "1": "pageWebCall.sysFooter.listDock.Items[0].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "2": "pageWebCall.sysFooter.listDock.Items[1].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "3": "pageWebCall.sysFooter.listDock.Items[2].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "4": "pageWebCall.sysFooter.listDock.Items[3].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "5": "pageWebCall.sysFooter.listDock.Items[4].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "6": "pageWebCall.sysFooter.listDock.Items[5].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "7": "pageWebCall.sysFooter.listDock.Items[6].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "8": "pageWebCall.sysFooter.listDock.List_Item1_Visible",
+          "9": "pageWebCall.sysFooter.listDock.List_Item2_Visible",
+          "10": "pageWebCall.sysFooter.listDock.List_Item3_Visible",
+          "11": "pageWebCall.sysFooter.listDock.List_Item4_Visible",
+          "12": "pageWebCall.sysFooter.listDock.List_Item5_Visible",
+          "13": "pageWebCall.sysFooter.listDock.List_Item6_Visible",
+          "14": "pageWebCall.sysFooter.listDock.List_Item7_Visible",
+          "15": "pageWebCall.sysFooter.listDock.List_Item1_Enable",
+          "16": "pageWebCall.sysFooter.listDock.List_Item2_Enable",
+          "17": "pageWebCall.sysFooter.listDock.List_Item3_Enable",
+          "18": "pageWebCall.sysFooter.listDock.List_Item4_Enable",
+          "19": "pageWebCall.sysFooter.listDock.List_Item5_Enable",
+          "20": "pageWebCall.sysFooter.listDock.List_Item6_Enable",
+          "21": "pageWebCall.sysFooter.listDock.List_Item7_Enable",
+          "23": "pageWebCall.sysFooter.listDock.Items[0].listItemActCONTRACT.listItemBtn.Selected",
+          "24": "pageWebCall.sysFooter.listDock.Items[1].listItemActCONTRACT.listItemBtn.Selected",
+          "25": "pageWebCall.sysFooter.listDock.Items[2].listItemActCONTRACT.listItemBtn.Selected",
+          "26": "pageWebCall.sysFooter.listDock.Items[3].listItemActCONTRACT.listItemBtn.Selected",
+          "27": "pageWebCall.sysFooter.listDock.Items[4].listItemActCONTRACT.listItemBtn.Selected",
+          "28": "pageWebCall.sysFooter.listDock.Items[5].listItemActCONTRACT.listItemBtn.Selected",
+          "29": "pageWebCall.sysFooter.listDock.Items[6].listItemActCONTRACT.listItemBtn.Selected"
+        },
+        "22": {
+          "1": "srcATV.sysFooter.listDock.Items[0].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "2": "srcATV.sysFooter.listDock.Items[1].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "3": "srcATV.sysFooter.listDock.Items[2].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "4": "srcATV.sysFooter.listDock.Items[3].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "5": "srcATV.sysFooter.listDock.Items[4].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "6": "srcATV.sysFooter.listDock.Items[5].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "7": "srcATV.sysFooter.listDock.Items[6].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "8": "srcATV.sysFooter.listDock.List_Item1_Visible",
+          "9": "srcATV.sysFooter.listDock.List_Item2_Visible",
+          "10": "srcATV.sysFooter.listDock.List_Item3_Visible",
+          "11": "srcATV.sysFooter.listDock.List_Item4_Visible",
+          "12": "srcATV.sysFooter.listDock.List_Item5_Visible",
+          "13": "srcATV.sysFooter.listDock.List_Item6_Visible",
+          "14": "srcATV.sysFooter.listDock.List_Item7_Visible",
+          "15": "srcATV.sysFooter.listDock.List_Item1_Enable",
+          "16": "srcATV.sysFooter.listDock.List_Item2_Enable",
+          "17": "srcATV.sysFooter.listDock.List_Item3_Enable",
+          "18": "srcATV.sysFooter.listDock.List_Item4_Enable",
+          "19": "srcATV.sysFooter.listDock.List_Item5_Enable",
+          "20": "srcATV.sysFooter.listDock.List_Item6_Enable",
+          "21": "srcATV.sysFooter.listDock.List_Item7_Enable",
+          "23": "srcATV.sysFooter.listDock.Items[0].listItemActCONTRACT.listItemBtn.Selected",
+          "24": "srcATV.sysFooter.listDock.Items[1].listItemActCONTRACT.listItemBtn.Selected",
+          "25": "srcATV.sysFooter.listDock.Items[2].listItemActCONTRACT.listItemBtn.Selected",
+          "26": "srcATV.sysFooter.listDock.Items[3].listItemActCONTRACT.listItemBtn.Selected",
+          "27": "srcATV.sysFooter.listDock.Items[4].listItemActCONTRACT.listItemBtn.Selected",
+          "28": "srcATV.sysFooter.listDock.Items[5].listItemActCONTRACT.listItemBtn.Selected",
+          "29": "srcATV.sysFooter.listDock.Items[6].listItemActCONTRACT.listItemBtn.Selected"
+        },
+        "25": {
+          "1": "srcBD.sysFooter.listDock.Items[0].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "2": "srcBD.sysFooter.listDock.Items[1].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "3": "srcBD.sysFooter.listDock.Items[2].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "4": "srcBD.sysFooter.listDock.Items[3].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "5": "srcBD.sysFooter.listDock.Items[4].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "6": "srcBD.sysFooter.listDock.Items[5].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "7": "srcBD.sysFooter.listDock.Items[6].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "8": "srcBD.sysFooter.listDock.List_Item1_Visible",
+          "9": "srcBD.sysFooter.listDock.List_Item2_Visible",
+          "10": "srcBD.sysFooter.listDock.List_Item3_Visible",
+          "11": "srcBD.sysFooter.listDock.List_Item4_Visible",
+          "12": "srcBD.sysFooter.listDock.List_Item5_Visible",
+          "13": "srcBD.sysFooter.listDock.List_Item6_Visible",
+          "14": "srcBD.sysFooter.listDock.List_Item7_Visible",
+          "15": "srcBD.sysFooter.listDock.List_Item1_Enable",
+          "16": "srcBD.sysFooter.listDock.List_Item2_Enable",
+          "17": "srcBD.sysFooter.listDock.List_Item3_Enable",
+          "18": "srcBD.sysFooter.listDock.List_Item4_Enable",
+          "19": "srcBD.sysFooter.listDock.List_Item5_Enable",
+          "20": "srcBD.sysFooter.listDock.List_Item6_Enable",
+          "21": "srcBD.sysFooter.listDock.List_Item7_Enable",
+          "23": "srcBD.sysFooter.listDock.Items[0].listItemActCONTRACT.listItemBtn.Selected",
+          "24": "srcBD.sysFooter.listDock.Items[1].listItemActCONTRACT.listItemBtn.Selected",
+          "25": "srcBD.sysFooter.listDock.Items[2].listItemActCONTRACT.listItemBtn.Selected",
+          "26": "srcBD.sysFooter.listDock.Items[3].listItemActCONTRACT.listItemBtn.Selected",
+          "27": "srcBD.sysFooter.listDock.Items[4].listItemActCONTRACT.listItemBtn.Selected",
+          "28": "srcBD.sysFooter.listDock.Items[5].listItemActCONTRACT.listItemBtn.Selected",
+          "29": "srcBD.sysFooter.listDock.Items[6].listItemActCONTRACT.listItemBtn.Selected"
+        },
+        "28": {
+          "1": "srcCamera.sysFooter.listDock.Items[0].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "2": "srcCamera.sysFooter.listDock.Items[1].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "3": "srcCamera.sysFooter.listDock.Items[2].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "4": "srcCamera.sysFooter.listDock.Items[3].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "5": "srcCamera.sysFooter.listDock.Items[4].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "6": "srcCamera.sysFooter.listDock.Items[5].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "7": "srcCamera.sysFooter.listDock.Items[6].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "8": "srcCamera.sysFooter.listDock.List_Item1_Visible",
+          "9": "srcCamera.sysFooter.listDock.List_Item2_Visible",
+          "10": "srcCamera.sysFooter.listDock.List_Item3_Visible",
+          "11": "srcCamera.sysFooter.listDock.List_Item4_Visible",
+          "12": "srcCamera.sysFooter.listDock.List_Item5_Visible",
+          "13": "srcCamera.sysFooter.listDock.List_Item6_Visible",
+          "14": "srcCamera.sysFooter.listDock.List_Item7_Visible",
+          "15": "srcCamera.sysFooter.listDock.List_Item1_Enable",
+          "16": "srcCamera.sysFooter.listDock.List_Item2_Enable",
+          "17": "srcCamera.sysFooter.listDock.List_Item3_Enable",
+          "18": "srcCamera.sysFooter.listDock.List_Item4_Enable",
+          "19": "srcCamera.sysFooter.listDock.List_Item5_Enable",
+          "20": "srcCamera.sysFooter.listDock.List_Item6_Enable",
+          "21": "srcCamera.sysFooter.listDock.List_Item7_Enable",
+          "23": "srcCamera.sysFooter.listDock.Items[0].listItemActCONTRACT.listItemBtn.Selected",
+          "24": "srcCamera.sysFooter.listDock.Items[1].listItemActCONTRACT.listItemBtn.Selected",
+          "25": "srcCamera.sysFooter.listDock.Items[2].listItemActCONTRACT.listItemBtn.Selected",
+          "26": "srcCamera.sysFooter.listDock.Items[3].listItemActCONTRACT.listItemBtn.Selected",
+          "27": "srcCamera.sysFooter.listDock.Items[4].listItemActCONTRACT.listItemBtn.Selected",
+          "28": "srcCamera.sysFooter.listDock.Items[5].listItemActCONTRACT.listItemBtn.Selected",
+          "29": "srcCamera.sysFooter.listDock.Items[6].listItemActCONTRACT.listItemBtn.Selected"
+        },
+        "31": {
+          "1": "zzTemplatePopUp.sysFooter.listDock.Items[0].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "2": "zzTemplatePopUp.sysFooter.listDock.Items[1].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "3": "zzTemplatePopUp.sysFooter.listDock.Items[2].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "4": "zzTemplatePopUp.sysFooter.listDock.Items[3].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "5": "zzTemplatePopUp.sysFooter.listDock.Items[4].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "6": "zzTemplatePopUp.sysFooter.listDock.Items[5].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "7": "zzTemplatePopUp.sysFooter.listDock.Items[6].listItemActCONTRACT.listItemIndicator.Visibility_fb",
+          "8": "zzTemplatePopUp.sysFooter.listDock.List_Item1_Visible",
+          "9": "zzTemplatePopUp.sysFooter.listDock.List_Item2_Visible",
+          "10": "zzTemplatePopUp.sysFooter.listDock.List_Item3_Visible",
+          "11": "zzTemplatePopUp.sysFooter.listDock.List_Item4_Visible",
+          "12": "zzTemplatePopUp.sysFooter.listDock.List_Item5_Visible",
+          "13": "zzTemplatePopUp.sysFooter.listDock.List_Item6_Visible",
+          "14": "zzTemplatePopUp.sysFooter.listDock.List_Item7_Visible",
+          "15": "zzTemplatePopUp.sysFooter.listDock.List_Item1_Enable",
+          "16": "zzTemplatePopUp.sysFooter.listDock.List_Item2_Enable",
+          "17": "zzTemplatePopUp.sysFooter.listDock.List_Item3_Enable",
+          "18": "zzTemplatePopUp.sysFooter.listDock.List_Item4_Enable",
+          "19": "zzTemplatePopUp.sysFooter.listDock.List_Item5_Enable",
+          "20": "zzTemplatePopUp.sysFooter.listDock.List_Item6_Enable",
+          "21": "zzTemplatePopUp.sysFooter.listDock.List_Item7_Enable",
+          "23": "zzTemplatePopUp.sysFooter.listDock.Items[0].listItemActCONTRACT.listItemBtn.Selected",
+          "24": "zzTemplatePopUp.sysFooter.listDock.Items[1].listItemActCONTRACT.listItemBtn.Selected",
+          "25": "zzTemplatePopUp.sysFooter.listDock.Items[2].listItemActCONTRACT.listItemBtn.Selected",
+          "26": "zzTemplatePopUp.sysFooter.listDock.Items[3].listItemActCONTRACT.listItemBtn.Selected",
+          "27": "zzTemplatePopUp.sysFooter.listDock.Items[4].listItemActCONTRACT.listItemBtn.Selected",
+          "28": "zzTemplatePopUp.sysFooter.listDock.Items[5].listItemActCONTRACT.listItemBtn.Selected",
+          "29": "zzTemplatePopUp.sysFooter.listDock.Items[6].listItemActCONTRACT.listItemBtn.Selected"
+        },
+        "33": {
+          "1001": "configFooter.configPageMenu.Button1ItemSelected",
+          "1002": "configFooter.configPageMenu.Button2ItemSelected",
+          "1003": "configFooter.configPageMenu.Button3ItemSelected",
+          "1004": "configFooter.configPageMenu.Button4ItemSelected",
+          "1005": "configFooter.configPageMenu.Button5ItemSelected",
+          "1501": "configFooter.configPageMenu.Button1Visible",
+          "1502": "configFooter.configPageMenu.Button2Visible",
+          "1503": "configFooter.configPageMenu.Button3Visible",
+          "1504": "configFooter.configPageMenu.Button4Visible",
+          "1505": "configFooter.configPageMenu.Button5Visible"
+        },
+        "34": {
+          "3": "configHeader.configPageCloseBtn.Selected"
+        },
+        "35": {
+          "1": "configAboutVisibilityJoin"
+        },
+        "36": {
+          "1": "configPageCameras.configAutoTrackBtn.Visibility_fb",
+          "2": "configPageCameras.configCameraNameTextInput.Visibility_fb",
+          "3": "configPageCameras.vxAutoSwitchBtn.Visibility_fb",
+          "4": "configPageCameras.vxCamRecalibrateBtn.Visibility_fb",
+          "5": "configPageCameras.vxOutputToggle.Visibility_fb",
+          "6": "configPageCameras.FormattedText_4.Visibility_fb",
+          "7": "configPageCameras.FormattedText.Visibility_fb",
+          "8": "configPageCameras.Htmldiv.Visibility_fb",
+          "9": "configPageCamerasVisibilityJoin",
+          "10": "configPageCameras.vxConfigBg.Visibility_fb",
+          "11": "configPageCameras.vxConfigHeader.Visibility_fb",
+          "12": "configPageCameras.configCamZoomIn.Enable",
+          "13": "configPageCameras.configCamZoomOut.Enable",
+          "14": "configPageCameras.configAutoTrackBtn.Selected",
+          "15": "configPageCameras.configCamZoomIn.Selected",
+          "16": "configPageCameras.configCamZoomOut.Selected",
+          "17": "configPageCameras.vxAutoSwitchBtn.Selected",
+          "18": "configPageCameras.vxCamRecalibrateBtn.Selected",
+          "19": "configPageCameras.vxOutputToggle.Selected"
+        },
+        "37": {
+          "1": "configPageCameras.vxConfigList.ListVisible",
+          "3": "configPageCameras.vxConfigList.ListEnabled",
+          "5": "configPageCameras.vxConfigList.Button1ItemSelected",
+          "6": "configPageCameras.vxConfigList.Button2ItemSelected",
+          "7": "configPageCameras.vxConfigList.Button3ItemSelected",
+          "8": "configPageCameras.vxConfigList.Button4ItemSelected",
+          "9": "configPageCameras.vxConfigList.Button5ItemSelected"
+        },
+        "38": {
+          "1": "configPageCameras.vxScenarioList.ListVisible",
+          "3": "configPageCameras.vxScenarioList.ListEnabled",
+          "5": "configPageCameras.vxScenarioList.Button1ItemSelected",
+          "6": "configPageCameras.vxScenarioList.Button2ItemSelected",
+          "7": "configPageCameras.vxScenarioList.Button3ItemSelected",
+          "8": "configPageCameras.vxScenarioList.Button4ItemSelected",
+          "9": "configPageCameras.vxScenarioList.Button5ItemSelected"
+        },
+        "39": {
+          "2": "configPageCameras.configCamPresetList.ListEnabled",
+          "4": "configPageCameras.configCamPresetList.Button1ItemSelected",
+          "5": "configPageCameras.configCamPresetList.Button2ItemSelected",
+          "6": "configPageCameras.configCamPresetList.Button3ItemSelected",
+          "7": "configPageCameras.configCamPresetList.Button4ItemSelected"
+        },
+        "40": {
+          "2": "configPageCameras.configCamDpad.Enable"
+        },
+        "41": {
+          "1": "configPageCameras.configCamSelList.ListVisible",
+          "503": "configPageCameras.configCamSelList.Button1ItemSelected",
+          "504": "configPageCameras.configCamSelList.Button2ItemSelected",
+          "505": "configPageCameras.configCamSelList.Button3ItemSelected",
+          "506": "configPageCameras.configCamSelList.Button4ItemSelected",
+          "1003": "configPageCameras.configCamSelList.Button1Visible",
+          "1004": "configPageCameras.configCamSelList.Button2Visible",
+          "1005": "configPageCameras.configCamSelList.Button3Visible",
+          "1006": "configPageCameras.configCamSelList.Button4Visible"
+        },
+        "42": {
+          "1": "configPageRoomVisibilityJoin",
+          "3": "configPageRoom.autoShutdownEnableBtn.Selected",
+          "4": "configPageRoom.autoShutdownHourDec.Selected",
+          "5": "configPageRoom.autoShutdownHourInc.Selected",
+          "6": "configPageRoom.autoShutdownMinDec.Selected",
+          "7": "configPageRoom.AutoShutdownMinInc.Selected"
+        },
+        "43": {
+          "1": "configPageRoom.WidgetList.List_Item1_Visible",
+          "2": "configPageRoom.WidgetList.List_Item2_Visible",
+          "3": "configPageRoom.WidgetList.List_Item3_Visible",
+          "4": "configPageRoom.WidgetList.List_Item4_Visible",
+          "606": "configPageRoom.WidgetList.Items[0].configFaderCONTRACT.faderLvlDown.Selected",
+          "607": "configPageRoom.WidgetList.Items[0].configFaderCONTRACT.faderLvlUp.Selected",
+          "608": "configPageRoom.WidgetList.Items[1].configFaderCONTRACT.faderLvlDown.Selected",
+          "609": "configPageRoom.WidgetList.Items[1].configFaderCONTRACT.faderLvlUp.Selected",
+          "610": "configPageRoom.WidgetList.Items[2].configFaderCONTRACT.faderLvlDown.Selected",
+          "611": "configPageRoom.WidgetList.Items[2].configFaderCONTRACT.faderLvlUp.Selected",
+          "612": "configPageRoom.WidgetList.Items[3].configFaderCONTRACT.faderLvlDown.Selected",
+          "613": "configPageRoom.WidgetList.Items[3].configFaderCONTRACT.faderLvlUp.Selected"
+        }
+      },
+      "numeric": {
+        "10": {
+          "4801": "pagePresent.srcsel.Items[0].listItemSourceCONTRACT.syncIndicator.Mode",
+          "4802": "pagePresent.srcsel.Items[1].listItemSourceCONTRACT.syncIndicator.Mode",
+          "4803": "pagePresent.srcsel.Items[2].listItemSourceCONTRACT.syncIndicator.Mode",
+          "4804": "pagePresent.srcsel.Items[3].listItemSourceCONTRACT.syncIndicator.Mode",
+          "4805": "pagePresent.srcsel.Items[4].listItemSourceCONTRACT.syncIndicator.Mode",
+          "4806": "pagePresent.srcsel.Items[5].listItemSourceCONTRACT.syncIndicator.Mode",
+          "4807": "pagePresent.srcsel.Items[6].listItemSourceCONTRACT.syncIndicator.Mode",
+          "4808": "pagePresent.srcsel.Items[7].listItemSourceCONTRACT.syncIndicator.Mode",
+          "4809": "pagePresent.srcsel.Items[8].listItemSourceCONTRACT.syncIndicator.Mode",
+          "4810": "pagePresent.srcsel.Items[9].listItemSourceCONTRACT.syncIndicator.Mode",
+          "4811": "pagePresent.srcsel.Items[10].listItemSourceCONTRACT.syncIndicator.Mode",
+          "4812": "pagePresent.srcsel.Items[11].listItemSourceCONTRACT.syncIndicator.Mode"
+        },
+        "37": {
+          "1": "configPageCameras.vxConfigList.ListNumberOfItems"
+        },
+        "38": {
+          "1": "configPageCameras.vxScenarioList.ListNumberOfItems"
+        },
+        "39": {
+          "1": "configPageCameras.configCamPresetList.ListNumberOfItems"
+        },
+        "43": {
+          "1": "configPageRoom.WidgetList.Items[0].configFaderCONTRACT.faderVal.Analog",
+          "2": "configPageRoom.WidgetList.Items[1].configFaderCONTRACT.faderVal.Analog",
+          "3": "configPageRoom.WidgetList.Items[2].configFaderCONTRACT.faderVal.Analog",
+          "4": "configPageRoom.WidgetList.Items[3].configFaderCONTRACT.faderVal.Analog"
+        }
+      },
+      "string": {
+        "3": {
+          "601": "pageLogo.sysFooter.listDock.Items[0].listItemActCONTRACT.listItemBtn.Icon",
+          "602": "pageLogo.sysFooter.listDock.Items[1].listItemActCONTRACT.listItemBtn.Icon",
+          "603": "pageLogo.sysFooter.listDock.Items[2].listItemActCONTRACT.listItemBtn.Icon",
+          "604": "pageLogo.sysFooter.listDock.Items[3].listItemActCONTRACT.listItemBtn.Icon",
+          "605": "pageLogo.sysFooter.listDock.Items[4].listItemActCONTRACT.listItemBtn.Icon",
+          "606": "pageLogo.sysFooter.listDock.Items[5].listItemActCONTRACT.listItemBtn.Icon",
+          "607": "pageLogo.sysFooter.listDock.Items[6].listItemActCONTRACT.listItemBtn.Icon"
+        },
+        "6": {
+          "601": "zzTemplatePage.sysFooter.listDock.Items[0].listItemActCONTRACT.listItemBtn.Icon",
+          "602": "zzTemplatePage.sysFooter.listDock.Items[1].listItemActCONTRACT.listItemBtn.Icon",
+          "603": "zzTemplatePage.sysFooter.listDock.Items[2].listItemActCONTRACT.listItemBtn.Icon",
+          "604": "zzTemplatePage.sysFooter.listDock.Items[3].listItemActCONTRACT.listItemBtn.Icon",
+          "605": "zzTemplatePage.sysFooter.listDock.Items[4].listItemActCONTRACT.listItemBtn.Icon",
+          "606": "zzTemplatePage.sysFooter.listDock.Items[5].listItemActCONTRACT.listItemBtn.Icon",
+          "607": "zzTemplatePage.sysFooter.listDock.Items[6].listItemActCONTRACT.listItemBtn.Icon"
+        },
+        "9": {
+          "601": "pagePresent.sysFooter.listDock.Items[0].listItemActCONTRACT.listItemBtn.Icon",
+          "602": "pagePresent.sysFooter.listDock.Items[1].listItemActCONTRACT.listItemBtn.Icon",
+          "603": "pagePresent.sysFooter.listDock.Items[2].listItemActCONTRACT.listItemBtn.Icon",
+          "604": "pagePresent.sysFooter.listDock.Items[3].listItemActCONTRACT.listItemBtn.Icon",
+          "605": "pagePresent.sysFooter.listDock.Items[4].listItemActCONTRACT.listItemBtn.Icon",
+          "606": "pagePresent.sysFooter.listDock.Items[5].listItemActCONTRACT.listItemBtn.Icon",
+          "607": "pagePresent.sysFooter.listDock.Items[6].listItemActCONTRACT.listItemBtn.Icon"
+        },
+        "10": {
+          "1": "pagePresent.srcsel.Items[0].listItemSourceCONTRACT.sourceSelBtn.IndirectText",
+          "2": "pagePresent.srcsel.Items[1].listItemSourceCONTRACT.sourceSelBtn.IndirectText",
+          "3": "pagePresent.srcsel.Items[2].listItemSourceCONTRACT.sourceSelBtn.IndirectText",
+          "4": "pagePresent.srcsel.Items[3].listItemSourceCONTRACT.sourceSelBtn.IndirectText",
+          "5": "pagePresent.srcsel.Items[4].listItemSourceCONTRACT.sourceSelBtn.IndirectText",
+          "6": "pagePresent.srcsel.Items[5].listItemSourceCONTRACT.sourceSelBtn.IndirectText",
+          "7": "pagePresent.srcsel.Items[6].listItemSourceCONTRACT.sourceSelBtn.IndirectText",
+          "8": "pagePresent.srcsel.Items[7].listItemSourceCONTRACT.sourceSelBtn.IndirectText",
+          "9": "pagePresent.srcsel.Items[8].listItemSourceCONTRACT.sourceSelBtn.IndirectText",
+          "10": "pagePresent.srcsel.Items[9].listItemSourceCONTRACT.sourceSelBtn.IndirectText",
+          "11": "pagePresent.srcsel.Items[10].listItemSourceCONTRACT.sourceSelBtn.IndirectText",
+          "12": "pagePresent.srcsel.Items[11].listItemSourceCONTRACT.sourceSelBtn.IndirectText",
+          "13": "pagePresent.srcsel.Items[0].listItemSourceCONTRACT.sourceSelBtn.Icon",
+          "14": "pagePresent.srcsel.Items[1].listItemSourceCONTRACT.sourceSelBtn.Icon",
+          "15": "pagePresent.srcsel.Items[2].listItemSourceCONTRACT.sourceSelBtn.Icon",
+          "16": "pagePresent.srcsel.Items[3].listItemSourceCONTRACT.sourceSelBtn.Icon",
+          "17": "pagePresent.srcsel.Items[4].listItemSourceCONTRACT.sourceSelBtn.Icon",
+          "18": "pagePresent.srcsel.Items[5].listItemSourceCONTRACT.sourceSelBtn.Icon",
+          "19": "pagePresent.srcsel.Items[6].listItemSourceCONTRACT.sourceSelBtn.Icon",
+          "20": "pagePresent.srcsel.Items[7].listItemSourceCONTRACT.sourceSelBtn.Icon",
+          "21": "pagePresent.srcsel.Items[8].listItemSourceCONTRACT.sourceSelBtn.Icon",
+          "22": "pagePresent.srcsel.Items[9].listItemSourceCONTRACT.sourceSelBtn.Icon",
+          "23": "pagePresent.srcsel.Items[10].listItemSourceCONTRACT.sourceSelBtn.Icon",
+          "24": "pagePresent.srcsel.Items[11].listItemSourceCONTRACT.sourceSelBtn.Icon"
+        },
+        "13": {
+          "601": "zzTemplateSource.sysFooter.listDock.Items[0].listItemActCONTRACT.listItemBtn.Icon",
+          "602": "zzTemplateSource.sysFooter.listDock.Items[1].listItemActCONTRACT.listItemBtn.Icon",
+          "603": "zzTemplateSource.sysFooter.listDock.Items[2].listItemActCONTRACT.listItemBtn.Icon",
+          "604": "zzTemplateSource.sysFooter.listDock.Items[3].listItemActCONTRACT.listItemBtn.Icon",
+          "605": "zzTemplateSource.sysFooter.listDock.Items[4].listItemActCONTRACT.listItemBtn.Icon",
+          "606": "zzTemplateSource.sysFooter.listDock.Items[5].listItemActCONTRACT.listItemBtn.Icon",
+          "607": "zzTemplateSource.sysFooter.listDock.Items[6].listItemActCONTRACT.listItemBtn.Icon"
+        },
+        "16": {
+          "601": "pageAdvRoute.sysFooter.listDock.Items[0].listItemActCONTRACT.listItemBtn.Icon",
+          "602": "pageAdvRoute.sysFooter.listDock.Items[1].listItemActCONTRACT.listItemBtn.Icon",
+          "603": "pageAdvRoute.sysFooter.listDock.Items[2].listItemActCONTRACT.listItemBtn.Icon",
+          "604": "pageAdvRoute.sysFooter.listDock.Items[3].listItemActCONTRACT.listItemBtn.Icon",
+          "605": "pageAdvRoute.sysFooter.listDock.Items[4].listItemActCONTRACT.listItemBtn.Icon",
+          "606": "pageAdvRoute.sysFooter.listDock.Items[5].listItemActCONTRACT.listItemBtn.Icon",
+          "607": "pageAdvRoute.sysFooter.listDock.Items[6].listItemActCONTRACT.listItemBtn.Icon"
+        },
+        "44": {
+          "1": "pageAdvRoute.advSrcBtnList.Button1Text",
+          "2": "pageAdvRoute.advSrcBtnList.Button2Text",
+          "3": "pageAdvRoute.advSrcBtnList.Button3Text",
+          "4": "pageAdvRoute.advSrcBtnList.Button4Text",
+          "5": "pageAdvRoute.advSrcBtnList.Button5Text",
+          "6": "pageAdvRoute.advSrcBtnList.Button6Text",
+          "7": "pageAdvRoute.advSrcBtnList.Button7Text",
+          "8": "pageAdvRoute.advSrcBtnList.Button8Text",
+          "9": "pageAdvRoute.advSrcBtnList.Button9Text",
+          "10": "pageAdvRoute.advSrcBtnList.Button10Text",
+          "11": "pageAdvRoute.advSrcBtnList.Button11Text",
+          "12": "pageAdvRoute.advSrcBtnList.Button12Text",
+          "13": "pageAdvRoute.advSrcBtnList.Button13Text",
+          "14": "pageAdvRoute.advSrcBtnList.Button14Text",
+          "15": "pageAdvRoute.advSrcBtnList.Button15Text",
+          "16": "pageAdvRoute.advSrcBtnList.Button16Text"
+        },
+        "45": {
+          "1": "pageAdvRoute.advDestBtnList.Button1Text",
+          "2": "pageAdvRoute.advDestBtnList.Button2Text",
+          "3": "pageAdvRoute.advDestBtnList.Button3Text",
+          "4": "pageAdvRoute.advDestBtnList.Button4Text",
+          "5": "pageAdvRoute.advDestBtnList.Button5Text",
+          "6": "pageAdvRoute.advDestBtnList.Button6Text",
+          "7": "pageAdvRoute.advDestBtnList.Button7Text",
+          "8": "pageAdvRoute.advDestBtnList.Button8Text",
+          "9": "pageAdvRoute.advDestBtnList.Button9Text",
+          "10": "pageAdvRoute.advDestBtnList.Button10Text",
+          "11": "pageAdvRoute.advDestBtnList.Button11Text",
+          "12": "pageAdvRoute.advDestBtnList.Button12Text",
+          "13": "pageAdvRoute.advDestBtnList.Button13Text",
+          "14": "pageAdvRoute.advDestBtnList.Button14Text",
+          "15": "pageAdvRoute.advDestBtnList.Button15Text",
+          "16": "pageAdvRoute.advDestBtnList.Button16Text",
+          "505": "pageAdvRoute.advDestBtnList.Serial_1",
+          "506": "pageAdvRoute.advDestBtnList.Serial"
+        },
+        "19": {
+          "601": "pageWebCall.sysFooter.listDock.Items[0].listItemActCONTRACT.listItemBtn.Icon",
+          "602": "pageWebCall.sysFooter.listDock.Items[1].listItemActCONTRACT.listItemBtn.Icon",
+          "603": "pageWebCall.sysFooter.listDock.Items[2].listItemActCONTRACT.listItemBtn.Icon",
+          "604": "pageWebCall.sysFooter.listDock.Items[3].listItemActCONTRACT.listItemBtn.Icon",
+          "605": "pageWebCall.sysFooter.listDock.Items[4].listItemActCONTRACT.listItemBtn.Icon",
+          "606": "pageWebCall.sysFooter.listDock.Items[5].listItemActCONTRACT.listItemBtn.Icon",
+          "607": "pageWebCall.sysFooter.listDock.Items[6].listItemActCONTRACT.listItemBtn.Icon"
+        },
+        "22": {
+          "601": "srcATV.sysFooter.listDock.Items[0].listItemActCONTRACT.listItemBtn.Icon",
+          "602": "srcATV.sysFooter.listDock.Items[1].listItemActCONTRACT.listItemBtn.Icon",
+          "603": "srcATV.sysFooter.listDock.Items[2].listItemActCONTRACT.listItemBtn.Icon",
+          "604": "srcATV.sysFooter.listDock.Items[3].listItemActCONTRACT.listItemBtn.Icon",
+          "605": "srcATV.sysFooter.listDock.Items[4].listItemActCONTRACT.listItemBtn.Icon",
+          "606": "srcATV.sysFooter.listDock.Items[5].listItemActCONTRACT.listItemBtn.Icon",
+          "607": "srcATV.sysFooter.listDock.Items[6].listItemActCONTRACT.listItemBtn.Icon"
+        },
+        "25": {
+          "601": "srcBD.sysFooter.listDock.Items[0].listItemActCONTRACT.listItemBtn.Icon",
+          "602": "srcBD.sysFooter.listDock.Items[1].listItemActCONTRACT.listItemBtn.Icon",
+          "603": "srcBD.sysFooter.listDock.Items[2].listItemActCONTRACT.listItemBtn.Icon",
+          "604": "srcBD.sysFooter.listDock.Items[3].listItemActCONTRACT.listItemBtn.Icon",
+          "605": "srcBD.sysFooter.listDock.Items[4].listItemActCONTRACT.listItemBtn.Icon",
+          "606": "srcBD.sysFooter.listDock.Items[5].listItemActCONTRACT.listItemBtn.Icon",
+          "607": "srcBD.sysFooter.listDock.Items[6].listItemActCONTRACT.listItemBtn.Icon"
+        },
+        "28": {
+          "601": "srcCamera.sysFooter.listDock.Items[0].listItemActCONTRACT.listItemBtn.Icon",
+          "602": "srcCamera.sysFooter.listDock.Items[1].listItemActCONTRACT.listItemBtn.Icon",
+          "603": "srcCamera.sysFooter.listDock.Items[2].listItemActCONTRACT.listItemBtn.Icon",
+          "604": "srcCamera.sysFooter.listDock.Items[3].listItemActCONTRACT.listItemBtn.Icon",
+          "605": "srcCamera.sysFooter.listDock.Items[4].listItemActCONTRACT.listItemBtn.Icon",
+          "606": "srcCamera.sysFooter.listDock.Items[5].listItemActCONTRACT.listItemBtn.Icon",
+          "607": "srcCamera.sysFooter.listDock.Items[6].listItemActCONTRACT.listItemBtn.Icon"
+        },
+        "31": {
+          "601": "zzTemplatePopUp.sysFooter.listDock.Items[0].listItemActCONTRACT.listItemBtn.Icon",
+          "602": "zzTemplatePopUp.sysFooter.listDock.Items[1].listItemActCONTRACT.listItemBtn.Icon",
+          "603": "zzTemplatePopUp.sysFooter.listDock.Items[2].listItemActCONTRACT.listItemBtn.Icon",
+          "604": "zzTemplatePopUp.sysFooter.listDock.Items[3].listItemActCONTRACT.listItemBtn.Icon",
+          "605": "zzTemplatePopUp.sysFooter.listDock.Items[4].listItemActCONTRACT.listItemBtn.Icon",
+          "606": "zzTemplatePopUp.sysFooter.listDock.Items[5].listItemActCONTRACT.listItemBtn.Icon",
+          "607": "zzTemplatePopUp.sysFooter.listDock.Items[6].listItemActCONTRACT.listItemBtn.Icon"
+        },
+        "33": {
+          "1": "configFooter.configPageMenu.Button1Text",
+          "2": "configFooter.configPageMenu.Button2Text",
+          "3": "configFooter.configPageMenu.Button3Text",
+          "4": "configFooter.configPageMenu.Button4Text",
+          "5": "configFooter.configPageMenu.Button5Text"
+        },
+        "35": {
+          "1": "configAbout.QRCode.QRCodeString"
+        },
+        "36": {
+          "1": "configPageCameras.configCameraNameTextInput.IndirectText"
+        },
+        "37": {
+          "1": "configPageCameras.vxConfigList.Button1Text",
+          "2": "configPageCameras.vxConfigList.Button2Text",
+          "3": "configPageCameras.vxConfigList.Button3Text",
+          "4": "configPageCameras.vxConfigList.Button4Text",
+          "5": "configPageCameras.vxConfigList.Button5Text"
+        },
+        "38": {
+          "1": "configPageCameras.vxScenarioList.Button1Text",
+          "2": "configPageCameras.vxScenarioList.Button2Text",
+          "3": "configPageCameras.vxScenarioList.Button3Text",
+          "4": "configPageCameras.vxScenarioList.Button4Text",
+          "5": "configPageCameras.vxScenarioList.Button5Text"
+        },
+        "39": {
+          "1": "configPageCameras.configCamPresetList.Button1Text",
+          "2": "configPageCameras.configCamPresetList.Button2Text",
+          "3": "configPageCameras.configCamPresetList.Button3Text",
+          "4": "configPageCameras.configCamPresetList.Button4Text"
+        },
+        "41": {
+          "1": "configPageCameras.configCamSelList.Button1Text",
+          "2": "configPageCameras.configCamSelList.Button2Text",
+          "3": "configPageCameras.configCamSelList.Button3Text",
+          "4": "configPageCameras.configCamSelList.Button4Text"
+        },
+        "42": {
+          "1": "configPageRoom.roomNameTextInput.IndirectText",
+          "6": "configPageRoom.AutoShutdownTIme.Serial"
+        },
+        "43": {
+          "1": "configPageRoom.WidgetList.Items[0].configFaderCONTRACT.faderName.Indirect",
+          "2": "configPageRoom.WidgetList.Items[1].configFaderCONTRACT.faderName.Indirect",
+          "3": "configPageRoom.WidgetList.Items[2].configFaderCONTRACT.faderName.Indirect",
+          "4": "configPageRoom.WidgetList.Items[3].configFaderCONTRACT.faderName.Indirect"
+        }
+      }
+    },
+    "events": {
+      "boolean": {
+        "pageLogo.sysFooter.listDock.Items[0].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 2,
+          "smartObjectId": 3
+        },
+        "pageLogo.sysFooter.listDock.Items[1].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 3,
+          "smartObjectId": 3
+        },
+        "pageLogo.sysFooter.listDock.Items[2].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 4,
+          "smartObjectId": 3
+        },
+        "pageLogo.sysFooter.listDock.Items[3].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 5,
+          "smartObjectId": 3
+        },
+        "pageLogo.sysFooter.listDock.Items[4].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 6,
+          "smartObjectId": 3
+        },
+        "pageLogo.sysFooter.listDock.Items[5].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 7,
+          "smartObjectId": 3
+        },
+        "pageLogo.sysFooter.listDock.Items[6].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 8,
+          "smartObjectId": 3
+        },
+        "zzTemplatePage.sysFooter.listDock.Items[0].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 2,
+          "smartObjectId": 6
+        },
+        "zzTemplatePage.sysFooter.listDock.Items[1].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 3,
+          "smartObjectId": 6
+        },
+        "zzTemplatePage.sysFooter.listDock.Items[2].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 4,
+          "smartObjectId": 6
+        },
+        "zzTemplatePage.sysFooter.listDock.Items[3].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 5,
+          "smartObjectId": 6
+        },
+        "zzTemplatePage.sysFooter.listDock.Items[4].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 6,
+          "smartObjectId": 6
+        },
+        "zzTemplatePage.sysFooter.listDock.Items[5].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 7,
+          "smartObjectId": 6
+        },
+        "zzTemplatePage.sysFooter.listDock.Items[6].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 8,
+          "smartObjectId": 6
+        },
+        "pagePresent.sysFooter.listDock.Items[0].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 2,
+          "smartObjectId": 9
+        },
+        "pagePresent.sysFooter.listDock.Items[1].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 3,
+          "smartObjectId": 9
+        },
+        "pagePresent.sysFooter.listDock.Items[2].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 4,
+          "smartObjectId": 9
+        },
+        "pagePresent.sysFooter.listDock.Items[3].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 5,
+          "smartObjectId": 9
+        },
+        "pagePresent.sysFooter.listDock.Items[4].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 6,
+          "smartObjectId": 9
+        },
+        "pagePresent.sysFooter.listDock.Items[5].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 7,
+          "smartObjectId": 9
+        },
+        "pagePresent.sysFooter.listDock.Items[6].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 8,
+          "smartObjectId": 9
+        },
+        "pagePresent.srcsel.Items[0].listItemSourceCONTRACT.sourceSelBtn.Press": {
+          "joinId": 601,
+          "smartObjectId": 10
+        },
+        "pagePresent.srcsel.Items[0].listItemSourceCONTRACT.sourceStopBtn.Press": {
+          "joinId": 602,
+          "smartObjectId": 10
+        },
+        "pagePresent.srcsel.Items[1].listItemSourceCONTRACT.sourceSelBtn.Press": {
+          "joinId": 603,
+          "smartObjectId": 10
+        },
+        "pagePresent.srcsel.Items[1].listItemSourceCONTRACT.sourceStopBtn.Press": {
+          "joinId": 604,
+          "smartObjectId": 10
+        },
+        "pagePresent.srcsel.Items[2].listItemSourceCONTRACT.sourceSelBtn.Press": {
+          "joinId": 605,
+          "smartObjectId": 10
+        },
+        "pagePresent.srcsel.Items[2].listItemSourceCONTRACT.sourceStopBtn.Press": {
+          "joinId": 606,
+          "smartObjectId": 10
+        },
+        "pagePresent.srcsel.Items[3].listItemSourceCONTRACT.sourceSelBtn.Press": {
+          "joinId": 607,
+          "smartObjectId": 10
+        },
+        "pagePresent.srcsel.Items[3].listItemSourceCONTRACT.sourceStopBtn.Press": {
+          "joinId": 608,
+          "smartObjectId": 10
+        },
+        "pagePresent.srcsel.Items[4].listItemSourceCONTRACT.sourceSelBtn.Press": {
+          "joinId": 609,
+          "smartObjectId": 10
+        },
+        "pagePresent.srcsel.Items[4].listItemSourceCONTRACT.sourceStopBtn.Press": {
+          "joinId": 610,
+          "smartObjectId": 10
+        },
+        "pagePresent.srcsel.Items[5].listItemSourceCONTRACT.sourceSelBtn.Press": {
+          "joinId": 611,
+          "smartObjectId": 10
+        },
+        "pagePresent.srcsel.Items[5].listItemSourceCONTRACT.sourceStopBtn.Press": {
+          "joinId": 612,
+          "smartObjectId": 10
+        },
+        "pagePresent.srcsel.Items[6].listItemSourceCONTRACT.sourceSelBtn.Press": {
+          "joinId": 613,
+          "smartObjectId": 10
+        },
+        "pagePresent.srcsel.Items[6].listItemSourceCONTRACT.sourceStopBtn.Press": {
+          "joinId": 614,
+          "smartObjectId": 10
+        },
+        "pagePresent.srcsel.Items[7].listItemSourceCONTRACT.sourceSelBtn.Press": {
+          "joinId": 615,
+          "smartObjectId": 10
+        },
+        "pagePresent.srcsel.Items[7].listItemSourceCONTRACT.sourceStopBtn.Press": {
+          "joinId": 616,
+          "smartObjectId": 10
+        },
+        "pagePresent.srcsel.Items[8].listItemSourceCONTRACT.sourceSelBtn.Press": {
+          "joinId": 617,
+          "smartObjectId": 10
+        },
+        "pagePresent.srcsel.Items[8].listItemSourceCONTRACT.sourceStopBtn.Press": {
+          "joinId": 618,
+          "smartObjectId": 10
+        },
+        "pagePresent.srcsel.Items[9].listItemSourceCONTRACT.sourceSelBtn.Press": {
+          "joinId": 619,
+          "smartObjectId": 10
+        },
+        "pagePresent.srcsel.Items[9].listItemSourceCONTRACT.sourceStopBtn.Press": {
+          "joinId": 620,
+          "smartObjectId": 10
+        },
+        "pagePresent.srcsel.Items[10].listItemSourceCONTRACT.sourceSelBtn.Press": {
+          "joinId": 621,
+          "smartObjectId": 10
+        },
+        "pagePresent.srcsel.Items[10].listItemSourceCONTRACT.sourceStopBtn.Press": {
+          "joinId": 622,
+          "smartObjectId": 10
+        },
+        "pagePresent.srcsel.Items[11].listItemSourceCONTRACT.sourceSelBtn.Press": {
+          "joinId": 623,
+          "smartObjectId": 10
+        },
+        "pagePresent.srcsel.Items[11].listItemSourceCONTRACT.sourceStopBtn.Press": {
+          "joinId": 624,
+          "smartObjectId": 10
+        },
+        "zzTemplateSource.sysFooter.listDock.Items[0].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 2,
+          "smartObjectId": 13
+        },
+        "zzTemplateSource.sysFooter.listDock.Items[1].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 3,
+          "smartObjectId": 13
+        },
+        "zzTemplateSource.sysFooter.listDock.Items[2].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 4,
+          "smartObjectId": 13
+        },
+        "zzTemplateSource.sysFooter.listDock.Items[3].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 5,
+          "smartObjectId": 13
+        },
+        "zzTemplateSource.sysFooter.listDock.Items[4].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 6,
+          "smartObjectId": 13
+        },
+        "zzTemplateSource.sysFooter.listDock.Items[5].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 7,
+          "smartObjectId": 13
+        },
+        "zzTemplateSource.sysFooter.listDock.Items[6].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 8,
+          "smartObjectId": 13
+        },
+        "pageAdvRoute.sysFooter.listDock.Items[0].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 2,
+          "smartObjectId": 16
+        },
+        "pageAdvRoute.sysFooter.listDock.Items[1].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 3,
+          "smartObjectId": 16
+        },
+        "pageAdvRoute.sysFooter.listDock.Items[2].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 4,
+          "smartObjectId": 16
+        },
+        "pageAdvRoute.sysFooter.listDock.Items[3].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 5,
+          "smartObjectId": 16
+        },
+        "pageAdvRoute.sysFooter.listDock.Items[4].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 6,
+          "smartObjectId": 16
+        },
+        "pageAdvRoute.sysFooter.listDock.Items[5].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 7,
+          "smartObjectId": 16
+        },
+        "pageAdvRoute.sysFooter.listDock.Items[6].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 8,
+          "smartObjectId": 16
+        },
+        "pageAdvRoute.advSrcBtnList.Button1ItemPress": {
+          "joinId": 1001,
+          "smartObjectId": 44
+        },
+        "pageAdvRoute.advSrcBtnList.Button2ItemPress": {
+          "joinId": 1002,
+          "smartObjectId": 44
+        },
+        "pageAdvRoute.advSrcBtnList.Button3ItemPress": {
+          "joinId": 1003,
+          "smartObjectId": 44
+        },
+        "pageAdvRoute.advSrcBtnList.Button4ItemPress": {
+          "joinId": 1004,
+          "smartObjectId": 44
+        },
+        "pageAdvRoute.advSrcBtnList.Button5ItemPress": {
+          "joinId": 1005,
+          "smartObjectId": 44
+        },
+        "pageAdvRoute.advSrcBtnList.Button6ItemPress": {
+          "joinId": 1006,
+          "smartObjectId": 44
+        },
+        "pageAdvRoute.advSrcBtnList.Button7ItemPress": {
+          "joinId": 1007,
+          "smartObjectId": 44
+        },
+        "pageAdvRoute.advSrcBtnList.Button8ItemPress": {
+          "joinId": 1008,
+          "smartObjectId": 44
+        },
+        "pageAdvRoute.advSrcBtnList.Button9ItemPress": {
+          "joinId": 1009,
+          "smartObjectId": 44
+        },
+        "pageAdvRoute.advSrcBtnList.Button10ItemPress": {
+          "joinId": 1010,
+          "smartObjectId": 44
+        },
+        "pageAdvRoute.advSrcBtnList.Button11ItemPress": {
+          "joinId": 1011,
+          "smartObjectId": 44
+        },
+        "pageAdvRoute.advSrcBtnList.Button12ItemPress": {
+          "joinId": 1012,
+          "smartObjectId": 44
+        },
+        "pageAdvRoute.advSrcBtnList.Button13ItemPress": {
+          "joinId": 1013,
+          "smartObjectId": 44
+        },
+        "pageAdvRoute.advSrcBtnList.Button14ItemPress": {
+          "joinId": 1014,
+          "smartObjectId": 44
+        },
+        "pageAdvRoute.advSrcBtnList.Button15ItemPress": {
+          "joinId": 1015,
+          "smartObjectId": 44
+        },
+        "pageAdvRoute.advSrcBtnList.Button16ItemPress": {
+          "joinId": 1016,
+          "smartObjectId": 44
+        },
+        "pageAdvRoute.advDestBtnList.Button1ItemPress": {
+          "joinId": 1001,
+          "smartObjectId": 45
+        },
+        "pageAdvRoute.advDestBtnList.Button2ItemPress": {
+          "joinId": 1002,
+          "smartObjectId": 45
+        },
+        "pageAdvRoute.advDestBtnList.Button3ItemPress": {
+          "joinId": 1003,
+          "smartObjectId": 45
+        },
+        "pageAdvRoute.advDestBtnList.Button4ItemPress": {
+          "joinId": 1004,
+          "smartObjectId": 45
+        },
+        "pageAdvRoute.advDestBtnList.Button5ItemPress": {
+          "joinId": 1005,
+          "smartObjectId": 45
+        },
+        "pageAdvRoute.advDestBtnList.Button6ItemPress": {
+          "joinId": 1006,
+          "smartObjectId": 45
+        },
+        "pageAdvRoute.advDestBtnList.Button7ItemPress": {
+          "joinId": 1007,
+          "smartObjectId": 45
+        },
+        "pageAdvRoute.advDestBtnList.Button8ItemPress": {
+          "joinId": 1008,
+          "smartObjectId": 45
+        },
+        "pageAdvRoute.advDestBtnList.Button9ItemPress": {
+          "joinId": 1009,
+          "smartObjectId": 45
+        },
+        "pageAdvRoute.advDestBtnList.Button10ItemPress": {
+          "joinId": 1010,
+          "smartObjectId": 45
+        },
+        "pageAdvRoute.advDestBtnList.Button11ItemPress": {
+          "joinId": 1011,
+          "smartObjectId": 45
+        },
+        "pageAdvRoute.advDestBtnList.Button12ItemPress": {
+          "joinId": 1012,
+          "smartObjectId": 45
+        },
+        "pageAdvRoute.advDestBtnList.Button13ItemPress": {
+          "joinId": 1013,
+          "smartObjectId": 45
+        },
+        "pageAdvRoute.advDestBtnList.Button14ItemPress": {
+          "joinId": 1014,
+          "smartObjectId": 45
+        },
+        "pageAdvRoute.advDestBtnList.Button15ItemPress": {
+          "joinId": 1015,
+          "smartObjectId": 45
+        },
+        "pageAdvRoute.advDestBtnList.Button16ItemPress": {
+          "joinId": 1016,
+          "smartObjectId": 45
+        },
+        "pageWebCall.sysFooter.listDock.Items[0].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 2,
+          "smartObjectId": 19
+        },
+        "pageWebCall.sysFooter.listDock.Items[1].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 3,
+          "smartObjectId": 19
+        },
+        "pageWebCall.sysFooter.listDock.Items[2].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 4,
+          "smartObjectId": 19
+        },
+        "pageWebCall.sysFooter.listDock.Items[3].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 5,
+          "smartObjectId": 19
+        },
+        "pageWebCall.sysFooter.listDock.Items[4].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 6,
+          "smartObjectId": 19
+        },
+        "pageWebCall.sysFooter.listDock.Items[5].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 7,
+          "smartObjectId": 19
+        },
+        "pageWebCall.sysFooter.listDock.Items[6].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 8,
+          "smartObjectId": 19
+        },
+        "srcATV.sysFooter.listDock.Items[0].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 2,
+          "smartObjectId": 22
+        },
+        "srcATV.sysFooter.listDock.Items[1].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 3,
+          "smartObjectId": 22
+        },
+        "srcATV.sysFooter.listDock.Items[2].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 4,
+          "smartObjectId": 22
+        },
+        "srcATV.sysFooter.listDock.Items[3].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 5,
+          "smartObjectId": 22
+        },
+        "srcATV.sysFooter.listDock.Items[4].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 6,
+          "smartObjectId": 22
+        },
+        "srcATV.sysFooter.listDock.Items[5].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 7,
+          "smartObjectId": 22
+        },
+        "srcATV.sysFooter.listDock.Items[6].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 8,
+          "smartObjectId": 22
+        },
+        "srcBD.sysFooter.listDock.Items[0].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 2,
+          "smartObjectId": 25
+        },
+        "srcBD.sysFooter.listDock.Items[1].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 3,
+          "smartObjectId": 25
+        },
+        "srcBD.sysFooter.listDock.Items[2].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 4,
+          "smartObjectId": 25
+        },
+        "srcBD.sysFooter.listDock.Items[3].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 5,
+          "smartObjectId": 25
+        },
+        "srcBD.sysFooter.listDock.Items[4].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 6,
+          "smartObjectId": 25
+        },
+        "srcBD.sysFooter.listDock.Items[5].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 7,
+          "smartObjectId": 25
+        },
+        "srcBD.sysFooter.listDock.Items[6].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 8,
+          "smartObjectId": 25
+        },
+        "srcCamera.sysFooter.listDock.Items[0].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 2,
+          "smartObjectId": 28
+        },
+        "srcCamera.sysFooter.listDock.Items[1].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 3,
+          "smartObjectId": 28
+        },
+        "srcCamera.sysFooter.listDock.Items[2].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 4,
+          "smartObjectId": 28
+        },
+        "srcCamera.sysFooter.listDock.Items[3].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 5,
+          "smartObjectId": 28
+        },
+        "srcCamera.sysFooter.listDock.Items[4].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 6,
+          "smartObjectId": 28
+        },
+        "srcCamera.sysFooter.listDock.Items[5].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 7,
+          "smartObjectId": 28
+        },
+        "srcCamera.sysFooter.listDock.Items[6].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 8,
+          "smartObjectId": 28
+        },
+        "zzTemplatePopUp.sysFooter.listDock.Items[0].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 2,
+          "smartObjectId": 31
+        },
+        "zzTemplatePopUp.sysFooter.listDock.Items[1].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 3,
+          "smartObjectId": 31
+        },
+        "zzTemplatePopUp.sysFooter.listDock.Items[2].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 4,
+          "smartObjectId": 31
+        },
+        "zzTemplatePopUp.sysFooter.listDock.Items[3].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 5,
+          "smartObjectId": 31
+        },
+        "zzTemplatePopUp.sysFooter.listDock.Items[4].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 6,
+          "smartObjectId": 31
+        },
+        "zzTemplatePopUp.sysFooter.listDock.Items[5].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 7,
+          "smartObjectId": 31
+        },
+        "zzTemplatePopUp.sysFooter.listDock.Items[6].listItemActCONTRACT.listItemBtn.Press": {
+          "joinId": 8,
+          "smartObjectId": 31
+        },
+        "configFooter.configPageMenu.Button1ItemPress": {
+          "joinId": 1001,
+          "smartObjectId": 33
+        },
+        "configFooter.configPageMenu.Button2ItemPress": {
+          "joinId": 1002,
+          "smartObjectId": 33
+        },
+        "configFooter.configPageMenu.Button3ItemPress": {
+          "joinId": 1003,
+          "smartObjectId": 33
+        },
+        "configFooter.configPageMenu.Button4ItemPress": {
+          "joinId": 1004,
+          "smartObjectId": 33
+        },
+        "configFooter.configPageMenu.Button5ItemPress": {
+          "joinId": 1005,
+          "smartObjectId": 33
+        },
+        "configHeader.configPageCloseBtn.Press": {
+          "joinId": 3,
+          "smartObjectId": 34
+        },
+        "configPageCameras.vxAutoSwitchBtn.Visibility": {
+          "joinId": 1,
+          "smartObjectId": 36
+        },
+        "configPageCameras.configAutoTrackBtn.Press": {
+          "joinId": 2,
+          "smartObjectId": 36
+        },
+        "configPageCameras.configCamZoomIn.Press": {
+          "joinId": 3,
+          "smartObjectId": 36
+        },
+        "configPageCameras.configCamZoomOut.Press": {
+          "joinId": 4,
+          "smartObjectId": 36
+        },
+        "configPageCameras.vxAutoSwitchBtn.Press": {
+          "joinId": 5,
+          "smartObjectId": 36
+        },
+        "configPageCameras.vxCamRecalibrateBtn.Press": {
+          "joinId": 6,
+          "smartObjectId": 36
+        },
+        "configPageCameras.vxOutputToggle.Press": {
+          "joinId": 7,
+          "smartObjectId": 36
+        },
+        "configPageCameras.vxConfigList.Button1ItemPress": {
+          "joinId": 1001,
+          "smartObjectId": 37
+        },
+        "configPageCameras.vxConfigList.Button2ItemPress": {
+          "joinId": 1002,
+          "smartObjectId": 37
+        },
+        "configPageCameras.vxConfigList.Button3ItemPress": {
+          "joinId": 1003,
+          "smartObjectId": 37
+        },
+        "configPageCameras.vxConfigList.Button4ItemPress": {
+          "joinId": 1004,
+          "smartObjectId": 37
+        },
+        "configPageCameras.vxConfigList.Button5ItemPress": {
+          "joinId": 1005,
+          "smartObjectId": 37
+        },
+        "configPageCameras.vxScenarioList.Button1ItemPress": {
+          "joinId": 1001,
+          "smartObjectId": 38
+        },
+        "configPageCameras.vxScenarioList.Button2ItemPress": {
+          "joinId": 1002,
+          "smartObjectId": 38
+        },
+        "configPageCameras.vxScenarioList.Button3ItemPress": {
+          "joinId": 1003,
+          "smartObjectId": 38
+        },
+        "configPageCameras.vxScenarioList.Button4ItemPress": {
+          "joinId": 1004,
+          "smartObjectId": 38
+        },
+        "configPageCameras.vxScenarioList.Button5ItemPress": {
+          "joinId": 1005,
+          "smartObjectId": 38
+        },
+        "configPageCameras.configCamPresetList.Button1ItemPress": {
+          "joinId": 1001,
+          "smartObjectId": 39
+        },
+        "configPageCameras.configCamPresetList.Button2ItemPress": {
+          "joinId": 1002,
+          "smartObjectId": 39
+        },
+        "configPageCameras.configCamPresetList.Button3ItemPress": {
+          "joinId": 1003,
+          "smartObjectId": 39
+        },
+        "configPageCameras.configCamPresetList.Button4ItemPress": {
+          "joinId": 1004,
+          "smartObjectId": 39
+        },
+        "configPageCameras.configCamDpad.Up": {
+          "joinId": 3,
+          "smartObjectId": 40
+        },
+        "configPageCameras.configCamDpad.Down": {
+          "joinId": 4,
+          "smartObjectId": 40
+        },
+        "configPageCameras.configCamDpad.Left": {
+          "joinId": 5,
+          "smartObjectId": 40
+        },
+        "configPageCameras.configCamDpad.Right": {
+          "joinId": 6,
+          "smartObjectId": 40
+        },
+        "configPageCameras.configCamDpad.Center": {
+          "joinId": 7,
+          "smartObjectId": 40
+        },
+        "configPageCameras.configCamSelList.Button1ItemPress": {
+          "joinId": 1001,
+          "smartObjectId": 41
+        },
+        "configPageCameras.configCamSelList.Button2ItemPress": {
+          "joinId": 1002,
+          "smartObjectId": 41
+        },
+        "configPageCameras.configCamSelList.Button3ItemPress": {
+          "joinId": 1003,
+          "smartObjectId": 41
+        },
+        "configPageCameras.configCamSelList.Button4ItemPress": {
+          "joinId": 1004,
+          "smartObjectId": 41
+        },
+        "configPageRoom.autoShutdownEnableBtn.Press": {
+          "joinId": 2,
+          "smartObjectId": 42
+        },
+        "configPageRoom.autoShutdownHourDec.Press": {
+          "joinId": 3,
+          "smartObjectId": 42
+        },
+        "configPageRoom.autoShutdownHourInc.Press": {
+          "joinId": 4,
+          "smartObjectId": 42
+        },
+        "configPageRoom.autoShutdownMinDec.Press": {
+          "joinId": 5,
+          "smartObjectId": 42
+        },
+        "configPageRoom.AutoShutdownMinInc.Press": {
+          "joinId": 6,
+          "smartObjectId": 42
+        },
+        "configPageRoom.WidgetList.Items[0].configFaderCONTRACT.faderLvlDown.Press": {
+          "joinId": 602,
+          "smartObjectId": 43
+        },
+        "configPageRoom.WidgetList.Items[0].configFaderCONTRACT.faderLvlUp.Press": {
+          "joinId": 603,
+          "smartObjectId": 43
+        },
+        "configPageRoom.WidgetList.Items[1].configFaderCONTRACT.faderLvlDown.Press": {
+          "joinId": 604,
+          "smartObjectId": 43
+        },
+        "configPageRoom.WidgetList.Items[1].configFaderCONTRACT.faderLvlUp.Press": {
+          "joinId": 605,
+          "smartObjectId": 43
+        },
+        "configPageRoom.WidgetList.Items[2].configFaderCONTRACT.faderLvlDown.Press": {
+          "joinId": 606,
+          "smartObjectId": 43
+        },
+        "configPageRoom.WidgetList.Items[2].configFaderCONTRACT.faderLvlUp.Press": {
+          "joinId": 607,
+          "smartObjectId": 43
+        },
+        "configPageRoom.WidgetList.Items[3].configFaderCONTRACT.faderLvlDown.Press": {
+          "joinId": 608,
+          "smartObjectId": 43
+        },
+        "configPageRoom.WidgetList.Items[3].configFaderCONTRACT.faderLvlUp.Press": {
+          "joinId": 609,
+          "smartObjectId": 43
+        }
+      },
+      "numeric": {},
+      "string": {
+        "configPageCameras.configCameraNameTextInput.OutputText": {
+          "joinId": 1,
+          "smartObjectId": 36
+        },
+        "configPageRoom.roomNameTextInput.OutputText": {
+          "joinId": 1,
+          "smartObjectId": 42
+        }
+      }
+    }
+  }
+}

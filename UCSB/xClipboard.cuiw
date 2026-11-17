@@ -1,0 +1,525 @@
+{FileMetadata}
+Schema = "1.0.0.0"
+CreatedByAppHost = "2.1701.12.0"
+Created = 2026-11-12 18:45:52.14825-08:00
+LastModifiedByAppHost = "2.1701.12.0"
+Modified = 2026-11-12 18:45:52.148245-08:00
+CreatedByProjectApp = "1.4901.18.0"
+LastModifiedByProjectApp = "1.4901.18.0"
+MinimumProjectApp = "1.2600.1"
+MinimumAppHost = "2.1700.0"
+
+{Html}
+<div categoryname="Widget Components" ccid_componenttype="Widget Canvas" id="i5ia78m7cm" devicesvisited="[&quot;TSW-1080, TSW-1070&quot;]" defaultwidth="1280px" defaultheight="800px" class="widget-container"><ch5-button orientation="horizontal" size="custom" shape="rounded-rectangle" previewstate="normal" type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="false" ccid_imageicontype="iconclass" ccid_linksendreceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" iconposition="last" tagname="ch5-button" ccid_syncproperties="disabled" ccid_lastsizeselected="regular" ccid_componenttype="button" ccid_ch5type="button" truncatetext="true" customvstheme="custom" id="ix5l752ak6ldh" componentname="Button_2" ccid_activefont="'CrestronSansPro'" assetid="0" pageflip="0" ccid_componenttype="Button" devicesvisited="[&quot;TSW-1080, TSW-1070&quot;]" ccid_iconlibrary="Material Symbols Rounded" ccid_customsizeset="true" iconclass="material-symbols-rounded file_open" ccid_label="Label" pd-receivestateselected="" oldid="iy1q" labelinnerhtml="Label"></ch5-button><ch5-button orientation="horizontal" size="custom" shape="circle" previewstate="normal" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="true" ccid_imageicontype="iconclass" ccid_linksendreceive="True" customclass="ccid-custom" affectedbypreviewstate="True" tagname="ch5-button" ccid_lastsizeselected="regular" ccid_componenttype="advancedbutton" ccid_ch5type="button" truncatetext="true" customvstheme="custom" id="i5z09" componentname="syncIndicator" ccid_activefont="'CrestronSansPro'" pageflip="0" ccid_componenttype="Button" devicesvisited="[&quot;TSW-1080, TSW-1070&quot;]" ccid_advancedsyncproperties="disabled" mode="2" labelinnerhtml="" ccid_customsizeset="true" ccid_label="">
+              <ch5-button-mode componentname="mode 0" ccid_imageicontype="iconclass" type="default" ccid_componenttype="buttonMode" modecount="0" id="it9xw" ccid_linksendreceive="True" devicesvisited="[&quot;TSW-1080, TSW-1070&quot;]" class="ch5-button-child"><ch5-button-mode-state componentname="normal" ccid_imageicontype="iconclass" type="default" halignlabel="center" state="normal" valignlabel="middle" iconposition="first" id="ioh6d" ccid_linksendreceive="True" assetid="0" devicesvisited="[&quot;TSW-1080, TSW-1070&quot;]" ccid_label="" labelinnerhtml="" checkboxposition="left" ccid_themecssset="true" class="ch5-button-child"></ch5-button-mode-state><ch5-button-mode-state componentname="pressed" ccid_imageicontype="iconclass" type="default" halignlabel="center" state="pressed" valignlabel="middle" iconposition="first" id="ieigz" ccid_linksendreceive="True" assetid="0" devicesvisited="[&quot;TSW-1080, TSW-1070&quot;]" ccid_label="" labelinnerhtml="" checkboxposition="left" ccid_themecssset="true" class="ch5-button-child"></ch5-button-mode-state><ch5-button-mode-state componentname="selected" ccid_imageicontype="iconclass" type="default" halignlabel="center" state="selected" valignlabel="middle" iconposition="first" id="isjbf" ccid_linksendreceive="True" assetid="0" devicesvisited="[&quot;TSW-1080, TSW-1070&quot;]" ccid_label="" labelinnerhtml="" checkboxposition="left" ccid_themecssset="true" class="ch5-button-child"></ch5-button-mode-state></ch5-button-mode><ch5-button-mode componentname="mode 1" ccid_imageicontype="iconclass" type="default" ccid_componenttype="buttonMode" modecount="1" id="i7fko" ccid_linksendreceive="True" devicesvisited="[&quot;TSW-1080, TSW-1070&quot;]" class="ch5-button-child"><ch5-button-mode-state componentname="normal" ccid_imageicontype="iconclass" type="default" halignlabel="center" state="normal" valignlabel="middle" iconposition="first" id="ilak1" ccid_linksendreceive="True" assetid="0" devicesvisited="[&quot;TSW-1080, TSW-1070&quot;]" ccid_themecssset="true" class="ch5-button-child"></ch5-button-mode-state><ch5-button-mode-state componentname="pressed" ccid_imageicontype="iconclass" type="default" halignlabel="center" state="pressed" valignlabel="middle" iconposition="first" id="ix84h" ccid_linksendreceive="True" assetid="0" devicesvisited="[&quot;TSW-1080, TSW-1070&quot;]" ccid_themecssset="true" class="ch5-button-child"></ch5-button-mode-state><ch5-button-mode-state componentname="selected" ccid_imageicontype="iconclass" type="default" halignlabel="center" state="selected" valignlabel="middle" iconposition="first" id="ilgdh" ccid_linksendreceive="True" assetid="0" devicesvisited="[&quot;TSW-1080, TSW-1070&quot;]" ccid_themecssset="true" class="ch5-button-child"></ch5-button-mode-state></ch5-button-mode><ch5-button-mode componentname="mode 2" ccid_imageicontype="iconclass" type="default" ccid_componenttype="buttonMode" modecount="2" id="ik2vw" ccid_linksendreceive="True" devicesvisited="[&quot;TSW-1080, TSW-1070&quot;]" class="ch5-button-child"><ch5-button-mode-state componentname="normal" ccid_imageicontype="iconclass" type="default" halignlabel="center" state="normal" valignlabel="middle" iconposition="first" id="ihd7f" ccid_linksendreceive="True" assetid="0" devicesvisited="[&quot;TSW-1080, TSW-1070&quot;]" ccid_themecssset="true" class="ch5-button-child"></ch5-button-mode-state><ch5-button-mode-state componentname="pressed" ccid_imageicontype="iconclass" type="default" halignlabel="center" state="pressed" valignlabel="middle" iconposition="first" id="ihyaa" ccid_linksendreceive="True" assetid="0" devicesvisited="[&quot;TSW-1080, TSW-1070&quot;]" ccid_themecssset="true" class="ch5-button-child"></ch5-button-mode-state><ch5-button-mode-state componentname="selected" ccid_imageicontype="iconclass" type="default" halignlabel="center" state="selected" valignlabel="middle" iconposition="first" id="i7urk" ccid_linksendreceive="True" assetid="0" devicesvisited="[&quot;TSW-1080, TSW-1070&quot;]" ccid_themecssset="true" class="ch5-button-child"></ch5-button-mode-state></ch5-button-mode></ch5-button><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" id="iqfhg3zvy80lw" componentname="Formatted-Text_4" ccid_activefont="'CrestronSansPro'" ccid_label="#0099ff" labelinnerhtml="#0099ff" ccid_linksendreceive="True" ccid_componenttype="Formatted-Text" devicesvisited="[&quot;TSW-1080, TSW-1070&quot;]" ccid_themecssset="true" oldid="iydllnyjnr"></ch5-text><ch5-button orientation="horizontal" size="custom" shape="rounded-rectangle" previewstate="normal" type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="false" ccid_imageicontype="iconclass" ccid_linksendreceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" iconposition="first" tagname="ch5-button" ccid_syncproperties="disabled" ccid_lastsizeselected="regular" ccid_componenttype="button" ccid_ch5type="button" truncatetext="true" customvstheme="custom" id="ia9k" componentname="Button_1" ccid_activefont="'CrestronSansPro'" ccid_label="label" labelinnerhtml="label" assetid="0" pageflip="0" ccid_componenttype="Button" devicesvisited="[&quot;TSW-1080, TSW-1070&quot;]" ccid_customsizeset="true">
+              </ch5-button><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" id="ie58x6zk9f" componentname="Formatted-Text_2" ccid_activefont="'CrestronSansPro'" ccid_label="#ff8040" labelinnerhtml="#ff8040" ccid_linksendreceive="True" ccid_componenttype="Formatted-Text" devicesvisited="[&quot;TSW-1080, TSW-1070&quot;]" ccid_themecssset="true" oldid="ik4u6kv0l7"></ch5-text><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" id="ik4u6kv0l7" componentname="Formatted-Text_1" ccid_activefont="'CrestronSansPro'" ccid_label="#ff1d18" labelinnerhtml="#ff1d18" ccid_linksendreceive="True" ccid_componenttype="Formatted-Text" devicesvisited="[&quot;TSW-1080, TSW-1070&quot;]" ccid_themecssset="true" oldid="isydp54sio"></ch5-text><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" id="isydp54sio" componentname="Formatted-Text" ccid_activefont="'CrestronSansPro'" ccid_label="#efeff4" labelinnerhtml="#efeff4" ccid_linksendreceive="True" ccid_componenttype="Formatted-Text" devicesvisited="[&quot;TSW-1080, TSW-1070&quot;]" ccid_themecssset="true" oldid="iydllnyjnr"></ch5-text><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" id="iydllnyjnr" componentname="Formatted-Text_3" ccid_activefont="'CrestronSansPro'" ccid_label="#0099ff" labelinnerhtml="#0099ff" ccid_linksendreceive="True" ccid_componenttype="Formatted-Text" devicesvisited="[&quot;TSW-1080, TSW-1070&quot;]" ccid_themecssset="true" oldid="i9ai"></ch5-text><ch5-button orientation="horizontal" size="custom" shape="rounded-rectangle" previewstate="selected" type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="true" ccid_imageicontype="iconclass" ccid_linksendreceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" iconposition="first" tagname="ch5-button" ccid_syncproperties="disabled" ccid_lastsizeselected="regular" ccid_componenttype="button" ccid_ch5type="button" truncatetext="true" customvstheme="custom" id="iy1q" componentname="Button" ccid_activefont="'CrestronSansPro'" assetid="0" pageflip="0" ccid_componenttype="Button" devicesvisited="[&quot;TSW-1080, TSW-1070&quot;]" ccid_iconlibrary="Material Symbols Rounded" ccid_customsizeset="true" iconclass="material-symbols-rounded file_open" ccid_label="" pd-receivestateselected="" selected="true">
+              </ch5-button></div>
+
+{Css}
+@media (max-width: 99999px){#i5ia78m7cm{width:1280px;height:800px;left:0;top:0;position:absolute;background-color:#afadadff;}#iy1q{display:block;left:931px;top:259px;position:absolute;z-index:1;width:120px;height:90px;--ch5-button--default-background-color:rgba(255,255,255,0);Appearance_background-color:rgba(255,255,255,0);--ch5-button--default-border-color:rgba(255,255,255,0);Appearance_border-color:rgba(255,255,255,0);--ch5-button--default-pressed-border-color:rgba(255,255,255,0);pressedAppearance_border-color:rgba(255,255,255,0);--ch5-button--default-selected-border-color:rgba(255,255,255,0);selectedAppearance_border-color:rgba(255,255,255,0);--ch5-button--default-border-width:0px;Appearance_border-width:0px;--ch5-button--default-pressed-border-width:0px;pressedAppearance_border-width:0px;--ch5-button--default-selected-border-width:0px;selectedAppearance_border-width:0px;--ch5-button--regular-width:120px;--ch5-button--regular-height:90px;--ch5-button--default-icon-color:#000;Icon_color:#000;--ch5-button--default-pressed-icon-color:#000;pressedIcon_color:#000;--ch5-button--default-selected-icon-color:#0099ff;selectedIcon_color:#0099ff;--ch5-button--regular-icon-size:48px;undefined:48px;Icon_font-size:48px;custom-normal-icon-font-size:48px;--ch5-button--regular-pressed-icon-size:48px;pressedIcon_font-size:48px;custom-pressed-icon-font-size:48px;--ch5-button--regular-selected-icon-size:48px;selectedIcon_font-size:48px;custom-selected-icon-font-size:48px;--ch5-button--default-pressed-background-color:rgba(255,255,255,0);pressedAppearance_background-color:rgba(255,255,255,0);--ch5-button--pressed-icon-margin-left:2px;pressedIcon_margin-left:1px;--ch5-button--icon-margin-left:0px;Icon_margin-left:0px;--ch5-button--selected-icon-margin-left:0px;selectedIcon_margin-left:0px;--ch5-button--pressed-icon-margin-top:2px;pressedIcon_margin-top:1px;--ch5-button--icon-margin-top:0px;Icon_margin-top:0px;--ch5-button--selected-icon-margin-top:0px;selectedIcon_margin-top:0px;--ch5-button--default-selected-background-color:rgba(255,255,255,0);selectedAppearance_background-color:rgba(255,255,255,0);--ch5-button--default-selected-label-font-color:#0199fd;selectedLabel_color:#0199fd;}#iy1q .ch5-button :not(i):not(svg){font-family:'CrestronSansPro';}#iydllnyjnr{display:block;left:25px;top:39px;position:absolute;z-index:5;width:307px;height:48px;--ch5-text--font-color:#0199fd;Label_color:#0199fd;--ch5-text--font-size:30px;Label_font-size:30px;custom-normal-font-size:30px;--ch5-text--width:307px;}#iydllnyjnr .ch5-text :not(i):not(svg){font-family:'CrestronSansPro';}#iydllnyjnr .ch5-text{min-height:10;min-width:10;padding:0px;}#ia9k{display:block;left:538px;top:88px;position:absolute;z-index:11;width:203px;height:72px;--ch5-button--regular-width:203px;--ch5-button--regular-height:72px;--ch5-button--default-background-color:#f7f8fa;Appearance_background-color:#f7f8fa;--ch5-button--default-border-width:0px;Appearance_border-width:0px;--ch5-button--default-pressed-border-width:0px;pressedAppearance_border-width:0px;--ch5-button--default-selected-border-width:0px;selectedAppearance_border-width:0px;--ch5-button--default-icon-color:#000;Icon_color:#000;--ch5-button--default-pressed-icon-color:#000;pressedIcon_color:#000;--ch5-button--default-selected-icon-color:#000;selectedIcon_color:#000;--ch5-button--default-label-font-color:#000;Label_color:#000;--ch5-button--default-pressed-label-font-color:#fff;pressedLabel_color:#fff;--ch5-button--default-selected-label-font-color:#fff;selectedLabel_color:#fff;--ch5-button--regular-font-size:24px;undefined:24px;Label_font-size:24px;custom-normal-label-font-size:24px;--ch5-button--regular-pressed-font-size:24px;pressedLabel_font-size:24px;custom-pressed-label-font-size:24px;--ch5-button--regular-selected-font-size:24px;selectedLabel_font-size:24px;custom-selected-label-font-size:24px;--ch5-button--default-selected-background-color:#0130bd;selectedAppearance_background-color:#0130bd;}#ia9k .ch5-button :not(i):not(svg){font-family:'CrestronSansPro';}#iqfhg3zvy80lw{display:block;left:25px;top:99px;position:absolute;z-index:12;width:307px;height:48px;--ch5-text--font-color:#0199fd;Label_color:#0199fd;--ch5-text--font-size:30px;Label_font-size:30px;custom-normal-font-size:30px;--ch5-text--width:307px;}#iqfhg3zvy80lw .ch5-text :not(i):not(svg){font-family:'CrestronSansPro';}#iqfhg3zvy80lw .ch5-text{min-height:10;min-width:10;padding:0px;}#ie58x6zk9f{display:block;left:25px;top:279px;position:absolute;z-index:8;width:307px;height:48px;--ch5-text--font-color:#ff8040;Label_color:#ff8040;--ch5-text--font-size:30px;Label_font-size:30px;custom-normal-font-size:30px;--ch5-text--width:307px;}#ie58x6zk9f .ch5-text :not(i):not(svg){font-family:'CrestronSansPro';}#ie58x6zk9f .ch5-text{min-height:10;min-width:10;padding:0px;}#ik4u6kv0l7{display:block;left:25px;top:219px;position:absolute;z-index:7;width:307px;height:48px;--ch5-text--font-color:#ff1d18;Label_color:#ff1d18;--ch5-text--font-size:30px;Label_font-size:30px;custom-normal-font-size:30px;--ch5-text--width:307px;}#ik4u6kv0l7 .ch5-text :not(i):not(svg){font-family:'CrestronSansPro';}#ik4u6kv0l7 .ch5-text{min-height:10;min-width:10;padding:0px;}#isydp54sio .ch5-text :not(i):not(svg){font-family:'CrestronSansPro';}#isydp54sio .ch5-text{min-height:10;min-width:10;padding:0px;}#isydp54sio{display:block;left:25px;top:159px;position:absolute;z-index:6;width:307px;height:48px;--ch5-text--font-color:#efeff4;Label_color:#efeff4;--ch5-text--font-size:30px;Label_font-size:30px;custom-normal-font-size:30px;--ch5-text--width:307px;}#i5z09{display:block;left:953px;top:66px;position:absolute;z-index:13;width:20px;height:20px;--ch5-button--default-background-color:#fd9901;Appearance_background-color:#fd9901;--ch5-button--default-border-width:0px;Appearance_border-width:0px;--ch5-button--default-pressed-border-width:0px;pressedAppearance_border-width:0px;--ch5-button--default-selected-border-width:0px;selectedAppearance_border-width:0px;--ch5-button--regular-width:20px;--ch5-button--regular-height:84px;}#i5z09 .ch5-button :not(i):not(svg){font-family:'CrestronSansPro';}#i5z09 .ch5-button-child{top:0;left:0;border-style:inherit;border-width:inherit;position:absolute;}#i5z09[mode="0"]{--ch5-button--default-background-color:#fd9901;Appearance_background-color:#fd9901;--ch5-button--default-border-width:0px;Appearance_border-width:0px;--ch5-button--default-pressed-border-width:0px;pressedAppearance_border-width:0px;--ch5-button--default-selected-border-width:0px;selectedAppearance_border-width:0px;pressedAppearance_background-color:#fd9901;--ch5-button--default-pressed-background-color:#fd9901;selectedAppearance_background-color:#fd9901;--ch5-button--default-selected-background-color:#fd9901;}#i5z09[mode="0"][pressed="true"]{--ch5-button--default-pressed-border-width:0px;pressedAppearance_border-width:0px;pressedAppearance_background-color:#fd9901;--ch5-button--default-pressed-background-color:#fd9901;}#i5z09[mode="0"][selected="true"]{--ch5-button--default-selected-border-width:0px;selectedAppearance_border-width:0px;selectedAppearance_background-color:#fd9901;--ch5-button--default-selected-background-color:#fd9901;}#i5z09[mode="1"]{--ch5-button--default-background-color:#01da14;Appearance_background-color:#01da14;--ch5-button--default-border-width:0px;Appearance_border-width:0px;--ch5-button--default-pressed-border-width:0px;pressedAppearance_border-width:0px;--ch5-button--default-selected-border-width:0px;selectedAppearance_border-width:0px;pressedAppearance_background-color:#01da14;--ch5-button--default-pressed-background-color:#01da14;selectedAppearance_background-color:#01da14;--ch5-button--default-selected-background-color:#01da14;}#i5z09[mode="1"][pressed="true"]{--ch5-button--default-pressed-border-width:0px;pressedAppearance_border-width:0px;pressedAppearance_background-color:#01da14;--ch5-button--default-pressed-background-color:#01da14;}#i5z09[mode="1"][selected="true"]{--ch5-button--default-selected-border-width:0px;selectedAppearance_border-width:0px;selectedAppearance_background-color:#01da14;--ch5-button--default-selected-background-color:#01da14;}#i5z09[mode="2"]{--ch5-button--default-background-color:#fd1f18;Appearance_background-color:#fd1f18;--ch5-button--default-border-width:0px;Appearance_border-width:0px;--ch5-button--default-pressed-border-width:0px;pressedAppearance_border-width:0px;--ch5-button--default-selected-border-width:0px;selectedAppearance_border-width:0px;pressedAppearance_background-color:#fd1f18;--ch5-button--default-pressed-background-color:#fd1f18;selectedAppearance_background-color:#fd1f18;--ch5-button--default-selected-background-color:#fd1f18;}#i5z09[mode="2"][pressed="true"]{--ch5-button--default-pressed-border-width:0px;pressedAppearance_border-width:0px;pressedAppearance_background-color:#fd1f18;--ch5-button--default-pressed-background-color:#fd1f18;}#i5z09[mode="2"][selected="true"]{--ch5-button--default-selected-border-width:0px;selectedAppearance_border-width:0px;selectedAppearance_background-color:#fd1f18;--ch5-button--default-selected-background-color:#fd1f18;}#i4yb{background-color:#ffffff;}.widget-container{z-index:0;}#ix5l752ak6ldh{display:block;left:784px;top:400px;position:absolute;z-index:14;width:194px;height:71px;--ch5-button--default-background-color:rgba(255,255,255,0);Appearance_background-color:rgba(255,255,255,0);--ch5-button--default-border-color:rgba(255,255,255,0);Appearance_border-color:rgba(255,255,255,0);--ch5-button--default-pressed-border-color:rgba(255,255,255,0);pressedAppearance_border-color:rgba(255,255,255,0);--ch5-button--default-selected-border-color:rgba(255,255,255,0);selectedAppearance_border-color:rgba(255,255,255,0);--ch5-button--default-border-width:0px;Appearance_border-width:0px;--ch5-button--default-pressed-border-width:0px;pressedAppearance_border-width:0px;--ch5-button--default-selected-border-width:0px;selectedAppearance_border-width:0px;--ch5-button--regular-width:194px;--ch5-button--regular-height:71px;--ch5-button--default-icon-color:#0099ff;Icon_color:#0099ff;--ch5-button--default-pressed-icon-color:#0099ff;pressedIcon_color:#0099ff;--ch5-button--default-selected-icon-color:#0099ff;selectedIcon_color:#0099ff;--ch5-button--regular-icon-size:48px;undefined:24px;Icon_font-size:48px;custom-normal-icon-font-size:48px;--ch5-button--regular-pressed-icon-size:48px;pressedIcon_font-size:48px;custom-pressed-icon-font-size:48px;--ch5-button--regular-selected-icon-size:48px;selectedIcon_font-size:48px;custom-selected-icon-font-size:48px;--ch5-button--default-pressed-background-color:rgba(255,255,255,0);pressedAppearance_background-color:rgba(255,255,255,0);pressedIcon_margin-left:1px;Icon_margin-left:0px;selectedIcon_margin-left:0px;--ch5-button--pressed-icon-margin-top:2px;pressedIcon_margin-top:1px;--ch5-button--icon-margin-top:0px;Icon_margin-top:0px;--ch5-button--selected-icon-margin-top:0px;selectedIcon_margin-top:0px;--ch5-button--default-selected-background-color:rgba(255,255,255,0);selectedAppearance_background-color:rgba(255,255,255,0);--ch5-button--default-selected-label-font-color:#0099ff;selectedLabel_color:#0099ff;--ch5-button--default-label-font-color:#0099ff;Label_color:#0099ff;--ch5-button--regular-font-size:24px;Label_font-size:24px;custom-normal-label-font-size:24px;--ch5-button--icon-margin-left:0px;--ch5-button--pressed-icon-margin-left:2px;--ch5-button--selected-icon-margin-left:0px;--ch5-button--regular-pressed-font-size:24px;pressedLabel_font-size:24px;custom-pressed-label-font-size:24px;--ch5-button--default-pressed-label-font-color:#0099ff;pressedLabel_color:#0099ff;--ch5-button--pressed-label-margin-left:2px;pressedLabel_margin-left:1px;--ch5-button--pressed-label-margin-top:2px;pressedLabel_margin-top:1px;}#ix5l752ak6ldh .ch5-button :not(i):not(svg){font-family:'CrestronSansPro';}}@media (orientation: landscape) and (max-width: 1281px) and (max-height: 801px), (orientation: landscape) and (max-width: 1279px){#i5ia78m7cm{width:1280px;height:800px;left:0;top:0;position:absolute;}#iy1q{display:block;left:931px;top:259px;position:absolute;width:120px;height:90px;Appearance_background-color:rgba(255,255,255,0);--ch5-button--default-background-color:rgba(255,255,255,0);--ch5-button--default-border-color:rgba(255,255,255,0);--ch5-button--default-pressed-border-color:rgba(255,255,255,0);--ch5-button--default-selected-border-color:rgba(255,255,255,0);--ch5-button--default-border-width:0px;--ch5-button--default-pressed-border-width:0px;--ch5-button--default-selected-border-width:0px;--ch5-button--regular-height:90px;--ch5-button--regular-width:120px;--ch5-button--default-icon-color:#000;--ch5-button--default-pressed-icon-color:#000;--ch5-button--default-selected-icon-color:#0099ff;--ch5-button--regular-icon-size:48px;undefined:48px;--ch5-button--regular-pressed-icon-size:48px;--ch5-button--regular-selected-icon-size:48px;pressedAppearance_background-color:rgba(255,255,255,0);--ch5-button--default-pressed-background-color:rgba(255,255,255,0);--ch5-button--pressed-icon-margin-left:2px;--ch5-button--icon-margin-left:0px;--ch5-button--selected-icon-margin-left:0px;--ch5-button--pressed-icon-margin-top:2px;--ch5-button--icon-margin-top:0px;--ch5-button--selected-icon-margin-top:0px;Icon_margin-left:0px;Icon_margin-top:0px;selectedAppearance_background-color:rgba(255,255,255,0);--ch5-button--default-selected-background-color:rgba(255,255,255,0);selectedIcon_margin-left:0px;selectedIcon_margin-top:0px;selectedLabel_color:#0199fd;--ch5-button--default-selected-label-font-color:#0199fd;selectedIcon_color:#0099ff;Appearance_border-color:rgba(255,255,255,0);pressedAppearance_border-color:rgba(255,255,255,0);selectedAppearance_border-color:rgba(255,255,255,0);}#iydllnyjnr{left:25px;top:39px;position:absolute;}#ia9k{display:block;left:538px;top:88px;position:absolute;width:203px;height:72px;--ch5-button--regular-width:203px;--ch5-button--regular-height:72px;Appearance_background-color:#f7f8fa;--ch5-button--default-background-color:#f7f8fa;--ch5-button--default-border-width:0px;--ch5-button--default-pressed-border-width:0px;--ch5-button--default-selected-border-width:0px;--ch5-button--default-icon-color:#000;--ch5-button--default-pressed-icon-color:#000;--ch5-button--default-selected-icon-color:#000;--ch5-button--default-label-font-color:#000;--ch5-button--default-pressed-label-font-color:#fff;--ch5-button--default-selected-label-font-color:#fff;--ch5-button--regular-font-size:24px;undefined:24px;--ch5-button--regular-pressed-font-size:24px;--ch5-button--regular-selected-font-size:24px;pressedLabel_color:#fff;selectedAppearance_background-color:#0130bd;--ch5-button--default-selected-background-color:#0130bd;selectedLabel_color:#fff;}#iqfhg3zvy80lw{left:25px;top:99px;position:absolute;}#ie58x6zk9f{left:25px;top:279px;position:absolute;Label_color:#ff8040;--ch5-text--font-color:#ff8040;}#ik4u6kv0l7{left:25px;top:219px;position:absolute;Label_color:#ff1d18;--ch5-text--font-color:#ff1d18;}#isydp54sio{left:25px;top:159px;position:absolute;Label_color:#efeff4;--ch5-text--font-color:#efeff4;}#i5z09{display:block;left:953px;top:66px;position:absolute;z-index:13;width:20px;height:20px;--ch5-button--default-background-color:#fd9901;Appearance_background-color:#fd9901;--ch5-button--default-border-width:0px;Appearance_border-width:0px;--ch5-button--default-pressed-border-width:0px;pressedAppearance_border-width:0px;--ch5-button--default-selected-border-width:0px;selectedAppearance_border-width:0px;--ch5-button--regular-width:20px;--ch5-button--regular-height:84px;}#ioh6d{display:block;}#ieigz{display:block;pressedAppearance_background-color:#fd9901;}#isjbf{display:block;selectedAppearance_background-color:#fd9901;}#it9xw{display:block;}#ilak1{display:block;Appearance_background-color:#01da14;}#ix84h{display:block;pressedAppearance_background-color:#01da14;}#ilgdh{display:block;selectedAppearance_background-color:#01da14;}#i7fko{display:block;}#ihd7f{display:block;Appearance_background-color:#fd1f18;}#ihyaa{display:block;pressedAppearance_background-color:#fd1f18;}#i7urk{display:block;selectedAppearance_background-color:#fd1f18;}#ik2vw{display:block;}#ix5l752ak6ldh{left:784px;top:400px;position:absolute;width:194px;--ch5-button--regular-width:194px;selectedLabel_color:#0099ff;--ch5-button--default-selected-label-font-color:#0099ff;Icon_color:#0099ff;--ch5-button--default-icon-color:#0099ff;Label_color:#0099ff;--ch5-button--default-label-font-color:#0099ff;Label_font-size:24px;--ch5-button--regular-font-size:24px;undefined:24px;height:71px;--ch5-button--regular-height:71px;pressedLabel_font-size:24px;--ch5-button--regular-pressed-font-size:24px;pressedLabel_color:#0099ff;--ch5-button--default-pressed-label-font-color:#0099ff;pressedIcon_color:#0099ff;--ch5-button--default-pressed-icon-color:#0099ff;pressedLabel_margin-left:1px;--ch5-button--pressed-label-margin-left:2px;pressedLabel_margin-top:1px;--ch5-button--pressed-label-margin-top:2px;}}
+
+{PageAttributes}
+
+[Attributes]
+Name = "xClipboard"
+PageMode = "absolute"
+Id = "faf0114c-edc0-4cb3-9fe8-fb37088aabb8"
+DisplayBackgroundColor = "True"
+BackgroundColor = "#afadadff"
+
+[[Elements]]
+Type = "widgetContainer"
+Classes = ["widget-container"]
+
+[[Elements.Components]]
+Type = "Ch5 Button"
+Editable = true
+
+[Elements.Components.Attributes]
+orientation = "horizontal"
+size = "custom"
+shape = "rounded-rectangle"
+previewstate = "normal"
+type = "default"
+halignlabel = "center"
+valignlabel = "middle"
+checkboxshow = "false"
+checkboxposition = "left"
+disabled = "false"
+pageFlipAttributeName = "pageflip"
+clearLabel = "false"
+ccid_imageIconType = "iconclass"
+ccid_linkSendReceive = "True"
+iconurlfilltype = "initial"
+customclass = "ccid-custom"
+affectedByPreviewState = "True"
+iconposition = "last"
+tagName = "ch5-button"
+ccid_syncproperties = "disabled"
+ccid_lastSizeSelected = "regular"
+ccid_componenttype = "button"
+ccid_ch5Type = "button"
+truncatetext = "true"
+customvstheme = "custom"
+id = "ix5l752ak6ldh"
+componentName = "Button_2"
+ccid_ActiveFont = "'CrestronSansPro'"
+assetid = "0"
+pageflip = "0"
+ccid_ComponentType = "Button"
+devicesVisited = "[\"TSW-1080, TSW-1070\"]"
+ccid_iconlibrary = "Material Symbols Rounded"
+ccid_customSizeSet = "true"
+iconclass = "material-symbols-rounded file_open"
+ccid_Label = "Label"
+pd-receivestateselected = ""
+oldID = "iy1q"
+labelinnerhtml = "Label"
+[[Elements.Components]]
+Type = "Ch5 Button"
+Editable = true
+
+[[Elements.Components.Components]]
+Type = "textnode"
+Content = "\n              "
+[[Elements.Components.Components]]
+Type = "Ch5 Button Mode"
+Classes = ["ch5-button-child"]
+
+[[Elements.Components.Components.Components]]
+Type = "Ch5 Button Mode State"
+Classes = ["ch5-button-child"]
+
+[Elements.Components.Components.Components.Attributes]
+componentName = "normal"
+ccid_imageIconType = "iconclass"
+type = "default"
+halignlabel = "center"
+state = "normal"
+valignlabel = "middle"
+iconposition = "first"
+id = "ioh6d"
+ccid_linkSendReceive = "True"
+assetid = "0"
+devicesVisited = "[\"TSW-1080, TSW-1070\"]"
+ccid_Label = ""
+labelinnerhtml = ""
+checkboxposition = "left"
+ccid_themeCSSSet = "true"
+[[Elements.Components.Components.Components]]
+Type = "Ch5 Button Mode State"
+Classes = ["ch5-button-child"]
+
+[Elements.Components.Components.Components.Attributes]
+componentName = "pressed"
+ccid_imageIconType = "iconclass"
+type = "default"
+halignlabel = "center"
+state = "pressed"
+valignlabel = "middle"
+iconposition = "first"
+id = "ieigz"
+ccid_linkSendReceive = "True"
+assetid = "0"
+devicesVisited = "[\"TSW-1080, TSW-1070\"]"
+ccid_Label = ""
+labelinnerhtml = ""
+checkboxposition = "left"
+ccid_themeCSSSet = "true"
+[[Elements.Components.Components.Components]]
+Type = "Ch5 Button Mode State"
+Classes = ["ch5-button-child"]
+
+[Elements.Components.Components.Components.Attributes]
+componentName = "selected"
+ccid_imageIconType = "iconclass"
+type = "default"
+halignlabel = "center"
+state = "selected"
+valignlabel = "middle"
+iconposition = "first"
+id = "isjbf"
+ccid_linkSendReceive = "True"
+assetid = "0"
+devicesVisited = "[\"TSW-1080, TSW-1070\"]"
+ccid_Label = ""
+labelinnerhtml = ""
+checkboxposition = "left"
+ccid_themeCSSSet = "true"
+
+[Elements.Components.Components.Attributes]
+componentName = "mode 0"
+ccid_imageIconType = "iconclass"
+type = "default"
+ccid_componenttype = "buttonMode"
+modecount = "0"
+id = "it9xw"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"TSW-1080, TSW-1070\"]"
+[[Elements.Components.Components]]
+Type = "Ch5 Button Mode"
+Classes = ["ch5-button-child"]
+
+[[Elements.Components.Components.Components]]
+Type = "Ch5 Button Mode State"
+Classes = ["ch5-button-child"]
+
+[Elements.Components.Components.Components.Attributes]
+componentName = "normal"
+ccid_imageIconType = "iconclass"
+type = "default"
+halignlabel = "center"
+state = "normal"
+valignlabel = "middle"
+iconposition = "first"
+id = "ilak1"
+ccid_linkSendReceive = "True"
+assetid = "0"
+devicesVisited = "[\"TSW-1080, TSW-1070\"]"
+ccid_themeCSSSet = "true"
+[[Elements.Components.Components.Components]]
+Type = "Ch5 Button Mode State"
+Classes = ["ch5-button-child"]
+
+[Elements.Components.Components.Components.Attributes]
+componentName = "pressed"
+ccid_imageIconType = "iconclass"
+type = "default"
+halignlabel = "center"
+state = "pressed"
+valignlabel = "middle"
+iconposition = "first"
+id = "ix84h"
+ccid_linkSendReceive = "True"
+assetid = "0"
+devicesVisited = "[\"TSW-1080, TSW-1070\"]"
+ccid_themeCSSSet = "true"
+[[Elements.Components.Components.Components]]
+Type = "Ch5 Button Mode State"
+Classes = ["ch5-button-child"]
+
+[Elements.Components.Components.Components.Attributes]
+componentName = "selected"
+ccid_imageIconType = "iconclass"
+type = "default"
+halignlabel = "center"
+state = "selected"
+valignlabel = "middle"
+iconposition = "first"
+id = "ilgdh"
+ccid_linkSendReceive = "True"
+assetid = "0"
+devicesVisited = "[\"TSW-1080, TSW-1070\"]"
+ccid_themeCSSSet = "true"
+
+[Elements.Components.Components.Attributes]
+componentName = "mode 1"
+ccid_imageIconType = "iconclass"
+type = "default"
+ccid_componenttype = "buttonMode"
+modecount = "1"
+id = "i7fko"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"TSW-1080, TSW-1070\"]"
+[[Elements.Components.Components]]
+Type = "Ch5 Button Mode"
+Classes = ["ch5-button-child"]
+
+[[Elements.Components.Components.Components]]
+Type = "Ch5 Button Mode State"
+Classes = ["ch5-button-child"]
+
+[Elements.Components.Components.Components.Attributes]
+componentName = "normal"
+ccid_imageIconType = "iconclass"
+type = "default"
+halignlabel = "center"
+state = "normal"
+valignlabel = "middle"
+iconposition = "first"
+id = "ihd7f"
+ccid_linkSendReceive = "True"
+assetid = "0"
+devicesVisited = "[\"TSW-1080, TSW-1070\"]"
+ccid_themeCSSSet = "true"
+[[Elements.Components.Components.Components]]
+Type = "Ch5 Button Mode State"
+Classes = ["ch5-button-child"]
+
+[Elements.Components.Components.Components.Attributes]
+componentName = "pressed"
+ccid_imageIconType = "iconclass"
+type = "default"
+halignlabel = "center"
+state = "pressed"
+valignlabel = "middle"
+iconposition = "first"
+id = "ihyaa"
+ccid_linkSendReceive = "True"
+assetid = "0"
+devicesVisited = "[\"TSW-1080, TSW-1070\"]"
+ccid_themeCSSSet = "true"
+[[Elements.Components.Components.Components]]
+Type = "Ch5 Button Mode State"
+Classes = ["ch5-button-child"]
+
+[Elements.Components.Components.Components.Attributes]
+componentName = "selected"
+ccid_imageIconType = "iconclass"
+type = "default"
+halignlabel = "center"
+state = "selected"
+valignlabel = "middle"
+iconposition = "first"
+id = "i7urk"
+ccid_linkSendReceive = "True"
+assetid = "0"
+devicesVisited = "[\"TSW-1080, TSW-1070\"]"
+ccid_themeCSSSet = "true"
+
+[Elements.Components.Components.Attributes]
+componentName = "mode 2"
+ccid_imageIconType = "iconclass"
+type = "default"
+ccid_componenttype = "buttonMode"
+modecount = "2"
+id = "ik2vw"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"TSW-1080, TSW-1070\"]"
+
+[Elements.Components.Attributes]
+orientation = "horizontal"
+size = "custom"
+shape = "circle"
+previewstate = "normal"
+checkboxshow = "false"
+checkboxposition = "left"
+disabled = "false"
+pageFlipAttributeName = "pageflip"
+clearLabel = "true"
+ccid_imageIconType = "iconclass"
+ccid_linkSendReceive = "True"
+customclass = "ccid-custom"
+affectedByPreviewState = "True"
+tagName = "ch5-button"
+ccid_lastSizeSelected = "regular"
+ccid_componenttype = "advancedbutton"
+ccid_ch5Type = "button"
+truncatetext = "true"
+customvstheme = "custom"
+id = "i5z09"
+componentName = "syncIndicator"
+ccid_ActiveFont = "'CrestronSansPro'"
+pageflip = "0"
+ccid_ComponentType = "Button"
+devicesVisited = "[\"TSW-1080, TSW-1070\"]"
+ccid_advancedsyncproperties = "disabled"
+mode = "2"
+labelinnerhtml = ""
+ccid_customSizeSet = "true"
+ccid_Label = ""
+[[Elements.Components]]
+Type = "Ch5 Text"
+Editable = true
+
+[Elements.Components.Attributes]
+clearLabel = "false"
+labelmodeadvncomponent = "simple"
+horizontalalignment = "center"
+verticalalignment = "middle"
+multilinesupport = "false"
+truncatetext = "false"
+id = "iqfhg3zvy80lw"
+componentName = "Formatted-Text_4"
+ccid_ActiveFont = "'CrestronSansPro'"
+ccid_Label = "#0099ff"
+labelinnerhtml = "#0099ff"
+ccid_linkSendReceive = "True"
+ccid_ComponentType = "Formatted-Text"
+devicesVisited = "[\"TSW-1080, TSW-1070\"]"
+ccid_themeCSSSet = "true"
+oldID = "iydllnyjnr"
+[[Elements.Components]]
+Type = "Ch5 Button"
+Editable = true
+
+[[Elements.Components.Components]]
+Type = "textnode"
+Content = "\n              "
+
+[Elements.Components.Attributes]
+orientation = "horizontal"
+size = "custom"
+shape = "rounded-rectangle"
+previewstate = "normal"
+type = "default"
+halignlabel = "center"
+valignlabel = "middle"
+checkboxshow = "false"
+checkboxposition = "left"
+disabled = "false"
+pageFlipAttributeName = "pageflip"
+clearLabel = "false"
+ccid_imageIconType = "iconclass"
+ccid_linkSendReceive = "True"
+iconurlfilltype = "initial"
+customclass = "ccid-custom"
+affectedByPreviewState = "True"
+iconposition = "first"
+tagName = "ch5-button"
+ccid_syncproperties = "disabled"
+ccid_lastSizeSelected = "regular"
+ccid_componenttype = "button"
+ccid_ch5Type = "button"
+truncatetext = "true"
+customvstheme = "custom"
+id = "ia9k"
+componentName = "Button_1"
+ccid_ActiveFont = "'CrestronSansPro'"
+ccid_Label = "label"
+labelinnerhtml = "label"
+assetid = "0"
+pageflip = "0"
+ccid_ComponentType = "Button"
+devicesVisited = "[\"TSW-1080, TSW-1070\"]"
+ccid_customSizeSet = "true"
+[[Elements.Components]]
+Type = "Ch5 Text"
+Editable = true
+
+[Elements.Components.Attributes]
+clearLabel = "false"
+labelmodeadvncomponent = "simple"
+horizontalalignment = "center"
+verticalalignment = "middle"
+multilinesupport = "false"
+truncatetext = "false"
+id = "ie58x6zk9f"
+componentName = "Formatted-Text_2"
+ccid_ActiveFont = "'CrestronSansPro'"
+ccid_Label = "#ff8040"
+labelinnerhtml = "#ff8040"
+ccid_linkSendReceive = "True"
+ccid_ComponentType = "Formatted-Text"
+devicesVisited = "[\"TSW-1080, TSW-1070\"]"
+ccid_themeCSSSet = "true"
+oldID = "ik4u6kv0l7"
+[[Elements.Components]]
+Type = "Ch5 Text"
+Editable = true
+
+[Elements.Components.Attributes]
+clearLabel = "false"
+labelmodeadvncomponent = "simple"
+horizontalalignment = "center"
+verticalalignment = "middle"
+multilinesupport = "false"
+truncatetext = "false"
+id = "ik4u6kv0l7"
+componentName = "Formatted-Text_1"
+ccid_ActiveFont = "'CrestronSansPro'"
+ccid_Label = "#ff1d18"
+labelinnerhtml = "#ff1d18"
+ccid_linkSendReceive = "True"
+ccid_ComponentType = "Formatted-Text"
+devicesVisited = "[\"TSW-1080, TSW-1070\"]"
+ccid_themeCSSSet = "true"
+oldID = "isydp54sio"
+[[Elements.Components]]
+Type = "Ch5 Text"
+Editable = true
+
+[Elements.Components.Attributes]
+clearLabel = "false"
+labelmodeadvncomponent = "simple"
+horizontalalignment = "center"
+verticalalignment = "middle"
+multilinesupport = "false"
+truncatetext = "false"
+id = "isydp54sio"
+componentName = "Formatted-Text"
+ccid_ActiveFont = "'CrestronSansPro'"
+ccid_Label = "#efeff4"
+labelinnerhtml = "#efeff4"
+ccid_linkSendReceive = "True"
+ccid_ComponentType = "Formatted-Text"
+devicesVisited = "[\"TSW-1080, TSW-1070\"]"
+ccid_themeCSSSet = "true"
+oldID = "iydllnyjnr"
+[[Elements.Components]]
+Type = "Ch5 Text"
+Editable = true
+
+[Elements.Components.Attributes]
+clearLabel = "false"
+labelmodeadvncomponent = "simple"
+horizontalalignment = "center"
+verticalalignment = "middle"
+multilinesupport = "false"
+truncatetext = "false"
+id = "iydllnyjnr"
+componentName = "Formatted-Text_3"
+ccid_ActiveFont = "'CrestronSansPro'"
+ccid_Label = "#0099ff"
+labelinnerhtml = "#0099ff"
+ccid_linkSendReceive = "True"
+ccid_ComponentType = "Formatted-Text"
+devicesVisited = "[\"TSW-1080, TSW-1070\"]"
+ccid_themeCSSSet = "true"
+oldID = "i9ai"
+[[Elements.Components]]
+Type = "Ch5 Button"
+Editable = true
+
+[[Elements.Components.Components]]
+Type = "textnode"
+Content = "\n              "
+
+[Elements.Components.Attributes]
+orientation = "horizontal"
+size = "custom"
+shape = "rounded-rectangle"
+previewstate = "selected"
+type = "default"
+halignlabel = "center"
+valignlabel = "middle"
+checkboxshow = "false"
+checkboxposition = "left"
+disabled = "false"
+pageFlipAttributeName = "pageflip"
+clearLabel = "true"
+ccid_imageIconType = "iconclass"
+ccid_linkSendReceive = "True"
+iconurlfilltype = "initial"
+customclass = "ccid-custom"
+affectedByPreviewState = "True"
+iconposition = "first"
+tagName = "ch5-button"
+ccid_syncproperties = "disabled"
+ccid_lastSizeSelected = "regular"
+ccid_componenttype = "button"
+ccid_ch5Type = "button"
+truncatetext = "true"
+customvstheme = "custom"
+id = "iy1q"
+componentName = "Button"
+ccid_ActiveFont = "'CrestronSansPro'"
+assetid = "0"
+pageflip = "0"
+ccid_ComponentType = "Button"
+devicesVisited = "[\"TSW-1080, TSW-1070\"]"
+ccid_iconlibrary = "Material Symbols Rounded"
+ccid_customSizeSet = "true"
+iconclass = "material-symbols-rounded file_open"
+ccid_Label = ""
+pd-receivestateselected = ""
+selected = "true"
+
+[Elements.Attributes]
+categoryname = "Widget Components"
+ccid_ComponentType = "Widget Canvas"
+id = "i5ia78m7cm"
+devicesVisited = "[\"TSW-1080, TSW-1070\"]"
+defaultWidth = "1280px"
+defaultHeight = "800px"
+

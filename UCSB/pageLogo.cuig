@@ -1,0 +1,168 @@
+{FileMetadata}
+Schema = "1.0.0.0"
+CreatedByAppHost = "2.1701.12.0"
+Created = 2026-11-12 18:16:15.340498-08:00
+LastModifiedByAppHost = "2.1701.12.0"
+Modified = 2026-11-12 18:16:15.340494-08:00
+CreatedByProjectApp = "1.4901.18.0"
+LastModifiedByProjectApp = "1.4901.18.0"
+MinimumProjectApp = "1.2600.1"
+MinimumAppHost = "2.1700.0"
+
+{Html}
+<ch5-datetime timeoffsethours="0" tagname="ch5-datetime" horizontalalignment="right" displaytype="date" display24hourformat="false" displayampm="true" displaytwodigitshour="false" displayseconds="false" stylefordate="MMMM d, yyyy" id="i2r3jxdpvl12p" componentname="Date Time_1" ccid_activefont="'CrestronSansProSemibold'" ccid_linksendreceive="True" ccid_componenttype="Date Time" devicesvisited="[&quot;TSW-1080&quot;]" ccid_themecssset="true" oldid="ia4wswkaml"></ch5-datetime><ch5-datetime timeoffsethours="0" tagname="ch5-datetime" horizontalalignment="center" displaytype="time" display24hourformat="false" displayampm="true" displaytwodigitshour="false" displayseconds="false" stylefordate="MM-dd-yyyy" id="iwb6b0gthsi1e" componentname="Date Time" ccid_activefont="'CrestronSansProSemibold'" ccid_linksendreceive="True" ccid_componenttype="Date Time" devicesvisited="[&quot;TSW-1080&quot;]" ccid_themecssset="true" oldid="i0j8">
+              </ch5-datetime><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="left" verticalalignment="middle" multilinesupport="false" truncatetext="false" id="ira0jve55bin8" componentname="Formatted-Text_1" ccid_activefont="'CrestronSansProSemibold'" ccid_label="Room Name" labelinnerhtml="Room Name" ccid_linksendreceive="True" ccid_componenttype="Formatted-Text" devicesvisited="[&quot;TSW-1080&quot;]" ccid_themecssset="true" oldid="i1xi" pd-receivestatelabel="1">
+              </ch5-text><ch5-template transitionduration="1s" transitiondelay="0s" templateid="w8e0d241d-0c30-4364-90f8-e791b6fb25bd" id="iiqc" componentname="sysFooter" ccid_componenttype="Widget" ccid_widgetname="sysFooter" devicesvisited="[&quot;TSW-1080&quot;]"></ch5-template><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" id="it2t" componentname="Formatted-Text" ccid_activefont="'CrestronSansProSemibold'" ccid_label="Make a Selection Below to Begin" labelinnerhtml="Make a Selection Below to Begin" ccid_linksendreceive="True" ccid_componenttype="Formatted-Text" devicesvisited="[&quot;TSW-1080&quot;]" ccid_themecssset="true">
+              </ch5-text><ch5-image numberofmodes="0" customvstheme="custom" refreshrate="0" allowpositiondatatobesent="false" allowvaluesonmove="false" assetid="bc9fc597-c10c-4229-91a2-c15a87ba9dfc" id="intu" componentname="Image" ccid_linksendreceive="True" ccid_componenttype="Image" devicesvisited="[&quot;TSW-1080&quot;]">
+              </ch5-image>
+
+{Css}
+@media (max-width: 99999px){#intu{width:1211px;height:283px;overflow:hidden;display:block;left:34px;top:188px;position:absolute;z-index:3;}#it2t{display:block;left:1px;top:641px;position:absolute;z-index:4;width:747px;height:48px;--ch5-text--font-size:36px;Label_font-size:36px;custom-normal-font-size:36px;--ch5-text--width:747px;}#it2t .ch5-text :not(i):not(svg){font-family:'CrestronSansProSemibold';}#it2t .ch5-text{min-height:10;min-width:10;padding:0px;}#iiqc{display:block;left:0px;top:700px;position:absolute;z-index:5;}#i2r3jxdpvl12p{display:block;left:963px;top:2px;position:absolute;z-index:8;width:306px;height:55px;--ch5-datetime--font-size:28px;Label_font-size:28px;custom-normal-font-size:28px;--ch5-datetime--width:306px;--ch5-datetime--height:55px;}#iwb6b0gthsi1e{display:block;left:540px;top:12px;position:absolute;z-index:7;width:200px;height:35px;--ch5-datetime--font-size:30px;Label_font-size:30px;custom-normal-font-size:30px;}#ira0jve55bin8{display:block;left:10px;top:2px;position:absolute;z-index:6;width:442px;height:55px;--ch5-text--width:442px;--ch5-text--height:55px;--ch5-text--font-size:30px;Label_font-size:30px;custom-normal-font-size:30px;}#ira0jve55bin8 .ch5-text :not(i):not(svg){font-family:'CrestronSansProSemibold';}#ira0jve55bin8 .ch5-text{min-height:10;min-width:10;padding:0px;}#iwb6b0gthsi1e :not(i):not(svg){font-family:'CrestronSansProSemibold';}#i2r3jxdpvl12p :not(i):not(svg){font-family:'CrestronSansProSemibold';}#ikz6{background-color:#ffffff;}}@media (orientation: landscape) and (max-width: 1281px) and (max-height: 801px), (orientation: landscape) and (max-width: 1279px){#intu{width:1211px;height:283px;overflow:hidden;display:block;left:34px;top:188px;position:absolute;}#it2t{display:block;left:1px;top:641px;position:absolute;width:747px;height:48px;Label_font-size:36px;--ch5-text--font-size:36px;--ch5-text--width:747px;}#iiqc{display:block;left:0px;top:700px;position:absolute;}#i2r3jxdpvl12p{left:963px;top:2px;position:absolute;width:306px;--ch5-datetime--width:306px;Label_font-size:28px;--ch5-datetime--font-size:28px;}#iwb6b0gthsi1e{display:block;left:540px;top:12px;position:absolute;width:200px;height:35px;Label_font-size:30px;--ch5-datetime--font-size:30px;}#ira0jve55bin8{display:block;left:10px;top:2px;position:absolute;width:442px;height:55px;--ch5-text--width:442px;--ch5-text--height:55px;Label_font-size:30px;--ch5-text--font-size:30px;}}
+
+{PageAttributes}
+
+[Attributes]
+Name = "pageLogo"
+PageMode = "absolute"
+Id = "419fde26-d379-46bc-9a3e-042d893e3a6a"
+StartPage = "True"
+PreloadPage = "True"
+CachePage = "True"
+VisibilityJoin = "20"
+DisplayBackgroundColor = "False"
+TransitionIn = "fadeIn"
+TransitionOut = "fadeOut"
+TransitionDuration = "0.2s"
+TransitionDelay = "0.2s"
+
+[[Elements]]
+Type = "Ch5 Date Time"
+Editable = true
+
+[Elements.Attributes]
+timeoffsethours = "0"
+tagName = "ch5-datetime"
+horizontalalignment = "right"
+displaytype = "date"
+display24hourformat = "false"
+displayampm = "true"
+displaytwodigitshour = "false"
+displayseconds = "false"
+stylefordate = "MMMM d, yyyy"
+id = "i2r3jxdpvl12p"
+componentName = "Date Time_1"
+ccid_ActiveFont = "'CrestronSansProSemibold'"
+ccid_linkSendReceive = "True"
+ccid_ComponentType = "Date Time"
+devicesVisited = "[\"TSW-1080\"]"
+ccid_themeCSSSet = "true"
+oldID = "ia4wswkaml"
+[[Elements]]
+Type = "Ch5 Date Time"
+Editable = true
+
+[[Elements.Components]]
+Type = "textnode"
+Content = "\n              "
+
+[Elements.Attributes]
+timeoffsethours = "0"
+tagName = "ch5-datetime"
+horizontalalignment = "center"
+displaytype = "time"
+display24hourformat = "false"
+displayampm = "true"
+displaytwodigitshour = "false"
+displayseconds = "false"
+stylefordate = "MM-dd-yyyy"
+id = "iwb6b0gthsi1e"
+componentName = "Date Time"
+ccid_ActiveFont = "'CrestronSansProSemibold'"
+ccid_linkSendReceive = "True"
+ccid_ComponentType = "Date Time"
+devicesVisited = "[\"TSW-1080\"]"
+ccid_themeCSSSet = "true"
+oldID = "i0j8"
+[[Elements]]
+Type = "Ch5 Text"
+Editable = true
+
+[[Elements.Components]]
+Type = "textnode"
+Content = "\n              "
+
+[Elements.Attributes]
+clearLabel = "false"
+labelmodeadvncomponent = "simple"
+horizontalalignment = "left"
+verticalalignment = "middle"
+multilinesupport = "false"
+truncatetext = "false"
+id = "ira0jve55bin8"
+componentName = "Formatted-Text_1"
+ccid_ActiveFont = "'CrestronSansProSemibold'"
+ccid_Label = "Room Name"
+labelinnerhtml = "Room Name"
+ccid_linkSendReceive = "True"
+ccid_ComponentType = "Formatted-Text"
+devicesVisited = "[\"TSW-1080\"]"
+ccid_themeCSSSet = "true"
+oldID = "i1xi"
+pd-receivestatelabel = "1"
+[[Elements]]
+Type = "Ch5 Template"
+
+[Elements.Attributes]
+transitionduration = "1s"
+transitiondelay = "0s"
+templateid = "w8e0d241d-0c30-4364-90f8-e791b6fb25bd"
+id = "iiqc"
+componentName = "sysFooter"
+ccid_ComponentType = "Widget"
+ccid_WidgetName = "sysFooter"
+devicesVisited = "[\"TSW-1080\"]"
+[[Elements]]
+Type = "Ch5 Text"
+Editable = true
+
+[[Elements.Components]]
+Type = "textnode"
+Content = "\n              "
+
+[Elements.Attributes]
+clearLabel = "false"
+labelmodeadvncomponent = "simple"
+horizontalalignment = "center"
+verticalalignment = "middle"
+multilinesupport = "false"
+truncatetext = "false"
+id = "it2t"
+componentName = "Formatted-Text"
+ccid_ActiveFont = "'CrestronSansProSemibold'"
+ccid_Label = "Make a Selection Below to Begin"
+labelinnerhtml = "Make a Selection Below to Begin"
+ccid_linkSendReceive = "True"
+ccid_ComponentType = "Formatted-Text"
+devicesVisited = "[\"TSW-1080\"]"
+ccid_themeCSSSet = "true"
+[[Elements]]
+Type = "Ch5 Image"
+Editable = true
+
+[[Elements.Components]]
+Type = "textnode"
+Content = "\n              "
+
+[Elements.Attributes]
+numberofmodes = "0"
+customvstheme = "custom"
+refreshrate = "0"
+allowpositiondatatobesent = "false"
+allowvaluesonmove = "false"
+assetid = "bc9fc597-c10c-4229-91a2-c15a87ba9dfc"
+id = "intu"
+componentName = "Image"
+ccid_linkSendReceive = "True"
+ccid_ComponentType = "Image"
+devicesVisited = "[\"TSW-1080\"]"
+

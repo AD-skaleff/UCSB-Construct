@@ -1,0 +1,25 @@
+{
+  "_fileMetadata": {
+    "_schema": "1.0.0.0",
+    "_createdByAppHost": "2.1701.12.0",
+    "_created": "2026-10-05T11:40:52.3622973-07:00",
+    "_lastModifiedByAppHost": "2.1701.12.0",
+    "_minimumAppHost": "2.1700.0",
+    "_modified": "2026-11-17T07:30:26.2079478-08:00"
+  },
+  "_solution": {
+    "_name": "UCSB",
+    "_projects": [
+      {
+        "_name": "UCSB",
+        "_filename": "UCSB/UCSB.cuip",
+        "_datetime": "2026-10-05T18:40:52.1977059Z"
+      },
+      {
+        "_name": "Laguna_UI",
+        "_filename": "Laguna_UI/Laguna_UI.cuip",
+        "_datetime": "2026-11-17T15:30:26.2060919Z"
+      }
+    ]
+  }
+}

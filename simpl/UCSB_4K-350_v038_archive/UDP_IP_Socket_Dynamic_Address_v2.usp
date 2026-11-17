@@ -1,0 +1,73 @@
+/*
+System Name:UDP Socket
+Programmer:Nathan Hesson, modified by Amplified Design
+Comments:See the HELP Section
+*/
+#SYMBOL_NAME "UDP Socket Dynamic Address v2"
+#CATEGORY "46" "TCPIP" // Custom
+#DEFAULT_VOLATILE
+#ENABLE_STACK_CHECKING
+#ENABLE_TRACE
+#OUTPUT_SHIFT 2
+#HELP_BEGIN
+   This module duplicates what a Simpl Windows UDP Client does.  The only difference is that you don't need an entry in the IP Table
+#HELP_END
+
+DIGITAL_INPUT _SKIP_, _SKIP_, UDP_Enable,Debug;
+STRING_INPUT UDP_TX$[255], Address[255];
+ANALOG_OUTPUT UDP_Status;
+STRING_OUTPUT _SKIP_, UDP_RX$;
+
+STRING_PARAMETER Port[5];
+
+/*#BEGIN_PARAMETER_PROPERTIES Address
+	PropValidUnits = UnitString;
+	PropDefaultValue = "";
+#END_PARAMETER_PROPERTIES*/
+
+#BEGIN_PARAMETER_PROPERTIES Port
+	PropValidUnits = UnitString;
+	PropDefaultValue = "80";
+#END_PARAMETER_PROPERTIES
+
+UDP_SOCKET 
+	myUDP[2048];
+
+INTEGER intPort;
+
+//EVENT-HANDLERS
+
+PUSH UDP_Enable
+{
+	UDP_Status = SocketUDP_Enable(myUDP, Address, intPort);
+	IF (Debug)	{TRACE("Enabling UDP to %s...Staus %d", Address, UDP_Status);}
+}
+
+RELEASE UDP_Enable
+{
+	UDP_Status = SocketUDP_Disable(myUDP);
+	IF (Debug)	{TRACE("Disabling UDP to %s...Staus %d", Address, UDP_Status);}
+}
+
+CHANGE UDP_Tx$
+{
+	UDP_Status = SocketSend(myUDP, UDP_TX$);
+	IF (Debug)	{TRACE("Tx: %s", UDP_Tx$);}
+}
+
+SOCKETRECEIVE myUDP
+{
+	INTEGER RX_LENGTH;
+
+	RX_LENGTH = LEN(myUDP.SocketRxBuf);
+
+	//IF (Debug)	{TRACE("Content Length: %d", RX_LENGTH);	TRACE("Rx: %s", CLIENT.SocketRxBuf);}
+
+	UDP_Rx$ = myUdp.SocketRxBuf;
+	ClearBuffer(myUdp.SocketRxBuf);
+}
+
+FUNCTION MAIN() 
+{
+	intPort = ATOI(Port);
+}

@@ -1,0 +1,82 @@
+/*******************************************************************************************
+  SIMPL+ Module Information
+  (Fill in comments below)
+*******************************************************************************************/
+/*
+Dealer Name:
+System Name:
+System Number:
+Programmer:TMC
+Comments:
+*/
+
+/*******************************************************************************************
+  Compiler Directives
+  (Uncomment and declare compiler directives as needed)
+*******************************************************************************************/
+#SYMBOL_NAME "Analog To Analog Decoder v1_0"
+// #HINT ""
+#DEFINE_CONSTANT MAX_ITEMS 24
+// #CATEGORY "" 
+// #DEFAULT_VOLATILE
+// #ANALOG_SERIAL_EXPAND 
+// #OUTPUT_SHIFT 
+#DEFAULT_NONVOLATILE
+#ANALOG_SERIAL_EXPAND Separately
+
+// ANALOG_INPUT 
+ANALOG_INPUT aiArgument[MAX_ITEMS], aIndex_Val[MAX_ITEMS];
+// BUFFER_INPUT 
+
+ANALOG_OUTPUT aoIndex_Argument[MAX_ITEMS];
+INTEGER iAnalog_Num,x,i;
+
+Function fEvalIndex(integer x)
+{
+	aoIndex_Argument[x] = aiArgument[aIndex_Val[x]];
+}
+
+Function fEvalArgument(integer x)
+{
+ 	for (i=1 to iAnalog_Num)
+	{
+		if (aIndex_Val[i]=x)
+		{
+			if (IsSignalDefined(aiArgument[aIndex_Val[i]]))
+			{
+				aoIndex_Argument[i] = aiArgument[aIndex_Val[i]];
+			}
+		}
+	}
+}
+
+
+CHANGE aiArgument
+{
+	fEvalArgument(getlastmodifiedarrayindex());
+}
+
+
+Change aIndex_Val
+{
+    fEvalIndex(getlastmodifiedarrayindex());
+}
+
+
+Function Main()
+{
+    // TODO:  Add code here
+    // Initialize declared global and local variables/arrays as needed.
+	integer i;
+
+    WaitForInitializationComplete();
+
+	For (i=MAX_ITEMS to 1 Step -1)
+	{
+     	If(IsSignalDefined(aIndex_Val[i]))
+			Break;
+	}iAnalog_Num = i;
+
+}
+
+

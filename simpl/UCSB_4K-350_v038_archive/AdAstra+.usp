@@ -1,0 +1,96 @@
+                                                                                                                                                                                               /*******************************************************************************************
+  SIMPL+ Module Information
+  (Fill in comments below)
+*******************************************************************************************/
+/*
+Dealer Name:
+System Name:
+System Number:
+Programmer:
+Comments:
+*/
+
+#USER_SIMPLSHARP_LIBRARY "UCSB_AdAstraSchedulingAwarenessLibrary"
+
+DIGITAL_INPUT Initialize, FetchCalendar;
+ANALOG_INPUT StartBuffer, EndBuffer;
+STRING_INPUT LocationId[255];
+
+DIGITAL_OUTPUT Unlock, Lock, InProgress;
+STRING_OUTPUT ToFusion$;
+
+AdAstra myAdAstra;
+
+string _locationId[255];
+
+Function Init()
+{
+	registerevent(myAdAstra, ReturnScheduleStatus, myReturnScheduleStatus);
+	registerevent(myAdAstra, ReturnWriteToFusion, myReturnWriteToFusion);
+
+}
+
+Function fProcessStatus(integer status)
+{
+	if(status>0)
+	{
+    	InProgress= 1;
+		PULSE (200, Unlock);
+	}
+	else
+	{
+    	InProgress= 0;
+		PULSE (200, Lock);
+
+	}
+}
+
+eventhandler myReturnScheduleStatus( AdAstra sender, ReturnScheduleStatusEventArgs args)
+{
+	fProcessStatus(args.InProgress);
+}
+
+eventhandler myReturnWriteToFusion( AdAstra sender, ReturnWriteToFusionEventArgs args)
+{
+	ToFusion$ = args.ToFusion;
+}
+
+
+push Initialize
+{
+	myAdAstra.Initialize();
+}
+
+push FetchCalendar
+{
+	myAdAstra.GetFile();
+}
+
+change LocationId
+{
+	if(LocationId != _locationId)
+	{	
+		_locationId = LocationId;
+		myAdAstra.SetLocationId(_locationId);
+	}
+	
+}
+
+change StartBuffer
+{
+	myAdAstra.StartBuffer = StartBuffer;
+}
+
+change EndBuffer
+{
+	myAdAstra.EndBuffer = EndBuffer;
+}
+
+
+Function Main()
+{
+
+    WaitForInitializationComplete();
+
+	Init();
+}

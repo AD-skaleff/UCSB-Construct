@@ -1,0 +1,94 @@
+[BEGIN]
+  Version=1
+[END]
+[BEGIN]
+  ObjTp=FSgntr
+  Sgntr=UserSPlus
+  RelVrs=1
+  IntStrVrs=1
+  SPlusVrs=4.06.00
+  CrossCplrVrs=1.3
+[END]
+[BEGIN]
+  ObjTp=Hd
+  Cmn1=||3This module duplicates what a Simpl Windows TCP/IP Client does.
+  Cmn2=||2The only difference is that you don't need an entry in the IP||1
+  Cmn3=Table
+[END]
+[BEGIN]
+  ObjTp=Symbol
+  Exclusions=1,19,20,21,88,89,167,168,179,213,214,215,216,217,225,226,248,249,266,267,310,718,756,854,
+  Exclusions_CDS=
+  Inclusions_CDS=5,6,7
+  Name=TCP_IP_CLIENT with Address and Port Input v2_2
+  SmplCName=TCP-IP_Client2_2.usp
+  Code=1
+  SysRev5=4.000
+  SMWRev=2.02.05
+  InputCue1=[~UNUSED~]
+  InputSigType1=Digital
+  InputCue2=[~UNUSED~]
+  InputSigType2=Digital
+  InputCue3=TCP_Connect
+  InputSigType3=Digital
+  InputCue4=Debug
+  InputSigType4=Digital
+  OutputCue1=TCP_Connect_F
+  OutputSigType1=Digital
+  InputList2Cue1=TCP_Tx$
+  InputList2SigType1=Serial
+  InputList2Cue2=[~UNUSED~]
+  InputList2SigType2=Serial
+  InputList2Cue3=Address
+  InputList2SigType3=Serial
+  InputList2Cue4=Port
+  InputList2SigType4=Analog
+  OutputList2Cue1=TCP_Status
+  OutputList2SigType1=Analog
+  OutputList2Cue2=TCP_Rx$
+  OutputList2SigType2=Serial
+  ParamCue1=[Reference Name]
+  MinVariableInputs=4
+  MaxVariableInputs=4
+  MinVariableInputsList2=4
+  MaxVariableInputsList2=4
+  MinVariableOutputs=1
+  MaxVariableOutputs=1
+  MinVariableOutputsList2=2
+  MaxVariableOutputsList2=2
+  MinVariableParams=0
+  MaxVariableParams=0
+  Expand=expand_separately
+  Expand2=expand_separately
+  OffsetOutputs=2
+  ProgramTree=Logic
+  SymbolTree=46
+  UserSymTreeName=TCPIP
+  Hint=
+  PdfHelp=
+  HelpID= 
+  Render=4
+  Smpl-C=16
+  CompilerCode=-48
+  CompilerParamCode=27
+  CompilerParamCode5=14
+  NumFixedParams=1
+  Pp1=1
+  MPp=1
+  NVStorage=10
+  ParamSigType1=String
+  SmplCInputCue1=o#
+  SmplCOutputCue1=i#
+  SmplCInputList2Cue1=an#
+  SmplCOutputList2Cue1=ai#
+  SPlus2CompiledName=S2_TCP_IP_Client2_2
+  SymJam=NonExclusive
+  FileName=TCP-IP_Client2_2.ush
+  SIMPLPlusModuleEncoding=0
+[END]
+[BEGIN]
+  ObjTp=Dp
+  H=1
+  Tp=1
+  NoS=False
+[END]

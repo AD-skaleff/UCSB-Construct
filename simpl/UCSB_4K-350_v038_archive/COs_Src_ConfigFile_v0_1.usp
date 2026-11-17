@@ -1,0 +1,254 @@
+/*******************************************************************************************
+  SIMPL+ Module Information
+  (Fill in comments below)
+*******************************************************************************************/
+/*
+Programmer: AMPLIFIED DESIGN, LLC
+Comments: 
+*/
+
+/*******************************************************************************************
+  Compiler Directives
+  (Uncomment and declare compiler directives as needed)
+*******************************************************************************************/
+#USER_SIMPLSHARP_LIBRARY "COs_Src_Config"
+
+#DEFAULT_VOLATILE
+#ENABLE_STACK_CHECKING
+
+#DEFINE_CONSTANT		MAX_ANALOG			40
+#DEFINE_CONSTANT		MAX_SERIAL			128
+#DEFINE_CONSTANT		STRING_SIZE			100
+#DEFINE_CONSTANT		MAX_SOURCES			12
+
+
+
+#HELP_BEGIN
+
+#HELP_END
+
+
+/*******************************************************************************************
+  DIGITAL, ANALOG and SERIAL INPUTS and OUTPUTS
+  (Uncomment and declare inputs and outputs as needed)
+*******************************************************************************************/
+    
+STRING_INPUT	FileName$[50];
+STRING_INPUT	_skip_;
+
+DIGITAL_INPUT	ReadOptions,WriteOptions,_skip_;
+DIGITAL_INPUT	ShiftLeft,ShiftRight,Delete,_skip_;
+ANALOG_INPUT	SrcValToEdit;
+ANALOG_INPUT	_skip_;
+ANALOG_INPUT	SrcPageVal[MAX_SOURCES],SrcVal[MAX_SOURCES],SrcIconVal[MAX_SOURCES];
+STRING_INPUT	SrcLabel[MAX_SOURCES][STRING_SIZE], SrcIcon[MAX_SOURCES][STRING_SIZE];
+
+DIGITAL_OUTPUT	ReadComplete, WriteComplete, NoFile, SrcValInUse[MAX_SOURCES], SrcIsDefined[MAX_SOURCES];
+
+ANALOG_OUTPUT	SrcNewVal, SrcNewInputVal, SrcPageValf[MAX_SOURCES],SrcValf[MAX_SOURCES],SrcIconValf[MAX_SOURCES];
+STRING_OUTPUT	SrcLabelf[MAX_SOURCES], SrcIconf[MAX_SOURCES];
+
+
+/*******************************************************************************************
+  Global Variables
+  (Uncomment and declare global variables as needed)
+  Note:  Be sure to initialize all declared STRING variables as needed
+         For example, in Function Main: myString = "";
+*******************************************************************************************/
+
+STRING  UserFileName[50];
+STRING sOptions[MAX_SERIAL][STRING_SIZE];
+
+
+integer iPage[MAX_SOURCES];
+integer iValue[MAX_SOURCES];
+integer iIconVal[MAX_SOURCES];
+string sName[MAX_SOURCES][MAX_SERIAL];
+string sIcon[MAX_SOURCES][MAX_SERIAL];
+
+SourceConfig mySourceConfig;
+
+/*******************************************************************************************
+  Event Handlers
+  (Uncomment and declare additional event handlers as needed)
+*******************************************************************************************/
+function Init()
+{
+   registerevent(mySourceConfig,ReturnSources,myReturnSources);
+   registerdelegate(mySourceconfig,delFile,myFileStatus);
+}
+
+callback function myFileStatus (integer fileStatus)
+{
+	switch(fileStatus)
+	{
+		case (1):
+		{
+			NoFile = 1;
+			ReadComplete = 0;
+			WriteComplete = 0;
+			SrcNewVal = 1;
+        }
+        case (2):
+		{
+   			NoFile = 0;
+			pulse(20,ReadComplete);
+			WriteComplete = 0;
+		}
+        case (3):
+		{
+   			NoFile = 0;
+			ReadComplete = 0;
+			pulse(20,WriteComplete);
+		}
+	} 	
+}
+
+function fUpdateInUse()
+{
+	integer in, src, found;
+	for(in = 1 to MAX_SOURCES)
+	{
+		found = 0;
+     	for(src=1 to MAX_SOURCES)
+		{
+		   	if(SrcValf[src] = in)
+			{
+				SrcValInUse[in] = 1;
+				found = 1;			
+				break;
+			}
+		}
+		if (found = 0)
+			SrcValInUse[in] = 0;
+	}
+	for(in = 1 to MAX_SOURCES)
+	{
+		if(SrcValInUse[in] = 0)
+			break;
+	}
+	SrcNewInputVal = in;
+
+}
+
+eventhandler myReturnSources(SourceConfig sender, ReturnSourcesEventArgs args)
+{
+    integer i;
+    if (sender = mySourceConfig)
+    {
+      for(i = 1 to MAX_SOURCES)
+      {
+        if(i<=args.TotalSources)
+        {
+          SrcPageValf[i] = args.Pages[i-1];
+          SrcValf[i] = args.Values[i-1];
+          SrcIconValf[i] = args.IconValues[i-1];
+          SrcLabelf[i] = args.Names[i-1];
+          SrcIconf[i] = args.Icons[i-1];
+		  SrcIsDefined[i] = 1;
+        }
+        else
+        {
+          SrcPageValf[i] = 0;
+          SrcValf[i] = 0;
+          SrcIconValf[i] = 0;
+          SrcLabelf[i] = "";
+          SrcIconf[i] = "";
+		  SrcIsDefined[i] = 0;
+		  
+        }
+      }
+      SrcNewVal = args.TotalSources + 1;
+	  fUpdateInUse();
+    }
+
+}
+
+push WriteOptions
+{
+   mySourceConfig.WriteFile();
+}
+
+push ReadOptions
+{
+   mySourceconfig.ReadFile();
+}
+
+Change SrcIconVal
+{
+ 	SrcIconValf[GetLastModifiedArrayIndex()] = mySourceConfig.SetIconVal(GetLastModifiedArrayIndex(),SrcIconVal[GetLastModifiedArrayIndex()]);
+}
+
+Change SrcIcon
+{
+ 	SrcIconf[GetLastModifiedArrayIndex()] = mySourceConfig.SetIcon(GetLastModifiedArrayIndex(),SrcIcon[GetLastModifiedArrayIndex()]);
+}
+
+Change SrcVal
+{
+    SrcValf[GetLastModifiedArrayIndex()] = mySourceConfig.SetSrcVal(GetLastModifiedArrayIndex(),SrcVal[GetLastModifiedArrayIndex()]);
+	fUpdateInUse();
+}
+
+Change SrcPageVal
+{
+    SrcPageValf[GetLastModifiedArrayIndex()] = mySourceConfig.SetPageVal(GetLastModifiedArrayIndex(),SrcPageVal[GetLastModifiedArrayIndex()]);
+}
+
+Change SrcLabel
+{
+    SrcLabelf[GetLastModifiedArrayIndex()] = mySourceConfig.SetName(GetLastModifiedArrayIndex(),SrcLabel[GetLastModifiedArrayIndex()]);
+}
+
+Change FileName$
+{
+  mySourceConfig.Filename = Filename$;
+}
+
+Push ShiftLeft
+{
+	mySourceConfig.ShiftLeft(SrcValToEdit);
+}
+
+Push ShiftRight
+{
+	mySourceConfig.ShiftRight(SrcValToEdit, MAX_SOURCES);
+}
+
+Push Delete
+{
+	mySourceConfig.Delete(SrcValToEdit);
+}
+
+
+
+/*******************************************************************************************
+  Main()
+  Uncomment and place one-time startup code here
+  (This code will get called when the system starts up)
+*******************************************************************************************/
+
+Function Main()
+{
+
+
+	waitforinitializationcomplete ();
+  Init();
+		
+   
+
+
+
+	
+    // TODO:  Add code here
+    // Initialize declared global and local variables/arrays as needed.
+
+    // WaitForInitializationComplete();
+    // If you are reading any Input or Output variables, uncomment
+    //   the WaitForInitializationComplete statement above and read
+    //   them afterwards.  Input/Output variables will not have
+    //   their correct values set until after the logic processor
+    //   runs and propagates the values to them.
+}
+
+

@@ -1,0 +1,92 @@
+/*******************************************************************************************
+  SIMPL+ Module Information
+  (Fill in comments below)
+*******************************************************************************************/
+/*
+Dealer Name:
+System Name:
+System Number:
+Programmer:Amplified Design, LLC
+Comments:
+*/
+
+/*******************************************************************************************
+  Compiler Directives
+  (Uncomment and declare compiler directives as needed)
+*******************************************************************************************/
+// #HINT ""
+#SYMBOL_NAME "Analog to Digital Decoder v1_0"
+#DEFINE_CONSTANT MAX_ITEMS 200
+// #CATEGORY "" 
+// #DEFAULT_VOLATILE
+// #ANALOG_SERIAL_EXPAND 
+// #OUTPUT_SHIFT 
+#DEFAULT_NONVOLATILE
+#ANALOG_SERIAL_EXPAND Separately
+
+// ANALOG_INPUT 
+DIGITAL_INPUT diArgument[MAX_ITEMS];
+ANALOG_INPUT aIndex_Val[MAX_ITEMS];
+// BUFFER_INPUT 
+
+DIGITAL_OUTPUT doIndex_Argument[MAX_ITEMS];
+INTEGER iAnalog_Num,x;
+
+Function fEvalIndex()
+{
+	integer i;
+
+	for(i=1 to iAnalog_Num)
+	{
+		if (aIndex_Val[i])
+		{
+			doIndex_Argument[i] = diArgument[aIndex_Val[i]];
+		}
+		else
+			doIndex_Argument[i] = 0;
+	}
+}
+
+Function fEvalArgument(integer x)
+{
+	if(aIndex_Val[x])
+	{
+		doIndex_Argument[aIndex_Val[x]] = diArgument[x];
+	}
+}
+
+
+PUSH diArgument
+{
+	fEvalArgument(getlastmodifiedarrayindex());
+}
+
+Release diArgument
+{
+    fEvalArgument(getlastmodifiedarrayindex());
+}
+
+
+Change aIndex_Val
+{
+    fEvalIndex();
+}
+
+
+Function Main()
+{
+    // TODO:  Add code here
+    // Initialize declared global and local variables/arrays as needed.
+	integer i;
+
+    WaitForInitializationComplete();
+
+	For (i=MAX_ITEMS to 1 Step -1)
+	{
+     	If(IsSignalDefined(aIndex_Val[i]))
+			Break;
+	}iAnalog_Num = i;
+
+}
+
+

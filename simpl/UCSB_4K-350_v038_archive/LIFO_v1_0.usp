@@ -1,0 +1,113 @@
+/*******************************************************************************************
+  SIMPL+ Module Information
+  (Fill in comments below)
+*******************************************************************************************/
+/*
+Dealer Name:
+System Name:
+System Number:
+Programmer:TMC
+Comments:
+*/
+
+/*******************************************************************************************
+  Compiler Directives
+  (Uncomment and declare compiler directives as needed)
+*******************************************************************************************/
+#SYMBOL_NAME "Digital LIFO Sort v1_0"
+// #HINT ""
+#DEFINE_CONSTANT MAX_ITEMS 24
+// #CATEGORY "" 
+// #DEFAULT_VOLATILE
+// #ANALOG_SERIAL_EXPAND 
+// #OUTPUT_SHIFT 
+#DEFAULT_NONVOLATILE
+#ANALOG_SERIAL_EXPAND Separately
+
+// ANALOG_INPUT 
+DIGITAL_INPUT dIn[MAX_ITEMS];
+// BUFFER_INPUT 
+
+ANALOG_OUTPUT aoIndex, aoIndexNext;
+INTEGER i, iLoc, idIn_Num, iQue[MAX_ITEMS];
+
+Function fAddtoTop(integer index)
+{
+	For (i=idIn_Num to 2 Step -1)
+	{
+        iQue[i] = iQue[i-1];
+	}
+	iQue[1] = index;
+	aoIndex = iQue[1];
+	aoIndexNext = iQue[2];
+}
+
+Function fShiftList()
+{
+ 	For (i=iLoc to idIn_Num-1)
+	{
+     	iQue[i] = iQue[i+1];
+	}
+	iQue[idIn_Num] = 0;
+	aoIndex = iQue[1];
+	aoIndexNext = iQue[2];
+}
+
+Function fRemoveFromList(integer index)
+{
+	i = 1;
+	iLoc = 0;
+	Do
+	{
+		if (iQue[i] = index)
+		{
+       		iLoc = i;  				
+		}	
+	}	
+	Until (iLoc);
+	if (iLoc)
+	{
+		fShiftList();
+	}
+}
+
+
+
+
+Push dIn
+{
+	fAddtoTop(getlastmodifiedarrayindex());
+}
+
+Release dIn
+{
+    fRemoveFromList(getlastmodifiedarrayindex());
+}
+
+
+
+
+Function Main()
+{
+    // TODO:  Add code here
+    // Initialize declared global and local variables/arrays as needed.
+	integer i;
+
+    WaitForInitializationComplete();
+
+	For (i=MAX_ITEMS to 1 Step -1)
+	{
+     	If(IsSignalDefined(dIn[i]))
+			Break;
+	}idIn_Num = i;
+	
+	For (i=1 to idIn_Num)
+	{
+     	iQue[i] = 0;
+	}
+
+
+
+}
+
+

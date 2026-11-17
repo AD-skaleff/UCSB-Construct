@@ -1,0 +1,96 @@
+/*
+System Name:TCP_IP_CLIENT
+Programmer:Nathan Hesson
+Comments:See the HELP Section
+*/
+#SYMBOL_NAME "TCP_IP_CLIENT with Address and Port Input v2_2"
+#CATEGORY "46" "TCPIP" // Custom
+#DEFAULT_VOLATILE
+#ENABLE_STACK_CHECKING
+#ENABLE_TRACE
+#OUTPUT_SHIFT 2
+#HELP_BEGIN
+   This module duplicates what a Simpl Windows TCP/IP Client does.  The only difference is that you don't need an entry in the IP Table
+#HELP_END
+
+DIGITAL_INPUT _SKIP_, _SKIP_, TCP_Connect,Debug;
+STRING_INPUT TCP_Tx$[255], _SKIP_, Address[255];
+ANALOG_INPUT Port;
+DIGITAL_OUTPUT TCP_Connect_F; 
+ANALOG_OUTPUT TCP_Status;
+STRING_OUTPUT TCP_Rx$;
+    
+ /*
+                                                                                           
+STRING_PARAMETER Port[5];
+#BEGIN_PARAMETER_PROPERTIES Port
+	PropValidUnits = UnitString;
+	PropDefaultValue = "80";
+#END_PARAMETER_PROPERTIES*/
+
+TCP_CLIENT 
+	CLIENT[2048];
+
+INTEGER intPort;
+
+//EVENT-HANDLERS
+
+PUSH TCP_Connect
+{
+	SocketConnectClient(CLIENT, Address, intPort, 1);
+	IF (Debug)	{TRACE("Connecting to %s...", Address);}
+}
+
+RELEASE TCP_Connect
+{
+	SocketDisconnectClient(CLIENT);
+	IF (Debug)	{TRACE("Disconnecting from %s...", Address);}
+}
+
+CHANGE TCP_Tx$
+{
+	IF(client.socketstatus = 2)
+	{
+	SocketSend(CLIENT, TCP_Tx$);
+	IF (Debug)	{TRACE("Tx: %s", TCP_Tx$);}
+	}
+}
+
+CHANGE PORT
+{
+	intPort = Port;
+}
+
+SOCKETCONNECT CLIENT
+{
+	TCP_Connect_F = 1;
+	IF (Debug)	{TRACE("Connected FB");}
+}
+
+SOCKETDISCONNECT CLIENT
+{
+	TCP_Connect_F = 0;
+	IF (Debug)	{TRACE("Disconnected FB");}
+}
+
+SOCKETSTATUS CLIENT
+{
+	TCP_Status = SocketGetStatus();
+}
+
+SOCKETRECEIVE CLIENT
+{
+    INTEGER RX_LENGTH;
+
+	RX_LENGTH = LEN(CLIENT.SocketRxBuf);
+
+	IF (Debug)	{TRACE("Content Length: %d", RX_LENGTH);	TRACE("Rx: %s", CLIENT.SocketRxBuf);}
+
+	TCP_Rx$ = CLIENT.SocketRxBuf;
+	ClearBuffer(CLIENT.SocketRxBuf);
+}
+
+FUNCTION MAIN() 
+{
+	TCP_Connect_F = 0;
+}
